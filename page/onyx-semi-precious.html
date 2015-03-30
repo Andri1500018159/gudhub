@@ -1,0 +1,136 @@
+<carousel interval="5000">
+  <slide ng-repeat="slide in slidesSml" active="slide.active">
+    <img ng-src="{{slide.image}}" style="margin:auto;">
+  </slide>
+</carousel>
+<div class="container container-pad50 product">
+    <div class="row">
+       <h1>ONYX/SEMI-PRECIOUS STONE</h1>
+        <h3>The term semi-precious is used to refer to the entire world of colored gemstones, not including precious gems like diamond, ruby, sapphire and emerald. Onyx is one of the most rare semi-natural stones in the world. It can be found in a wide range of colors, often layered.</h3>
+        <hr class="line"/>
+        <div class="col-md-5 col-xs-12">
+           <img src="../images/onyx.jpg" alt="onyx" width="100%" />
+        </div>
+        <div class="col-md-7 col-xs-12">
+           <p>Due to its spectacular beauty and translucency onyx is a favorite accent stone in interior design. However the biggest problem with onyx is that it is very soft and does not hold up well with regular use at home. It can easily be scratched, acidic liquids like juices and alcohol are
+danger for it.</p>
+        </div>
+    </div>
+    </div>
+    <br/>
+    <div class="container-pad50 bg-blue">
+        <div class="container">
+            <div class="row product text-center" style="color: #fff;">
+                <h2>Recommended use</h2>
+                <br/>
+                <div class="col-md-12 col-xs-12">
+                    <h3>Semi-precious stones can be implemented in flooring, giving a luxurious look to your floor. Various types of sinks, vanity tops, bathtubs, claddings are made by these stones. Onyx as material is rarely chosen for countertops, although it is the most expensive material you can get it is actually more decorative than practical.</h3>
+                </div>
+            </div>
+
+           <div class="row container-pad50 fIcons">
+
+                <div class="col-lg-4 col-xs-12 col-md-6 text-center" >
+                    <img src="../images/svg/tiles1.svg" alt="tiles">
+                    <h3>Bathroom Wall Tile</h3>
+
+                </div>
+                <div class="col-lg-4 col-xs-12 col-md-6 text-center">
+                    <img src="../images/svg/basin.svg" alt="basin">
+                    <h3>Kitchen Countertops</h3>
+
+
+                </div>
+                <div class="col-lg-4 col-xs-12 col-md-12 text-center">
+                    <img src="../images/svg/bathroom12.svg" alt="bathroom">
+                    <h3>Fireplaces</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br/>
+
+
+
+<!-- MARBLE SAMPLES SECTION-->
+    <div class="container container-pad50 product">
+        <div class="row product text-center">
+
+            <h3>View samples of onyx and semi-precious stone colors below, click to see the larger image of material you can get for your project</h3>
+            <div class="row">
+
+                <br/>
+                <div class="wrapper-product">
+                    <div ng-repeat="item in marble" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
+                       <a><!-- a href="{{item.href}}" -->
+                           <img class="item-image" ng-src="{{item.image}}" width="100%" />
+                           <span class="title">{{item.title}}</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clearfix"> </div>
+    </div>
+
+
+<!--    CONTACT SECTION-->
+    <div class="bg-grey">
+
+    <div class="contact-section" id="contact">
+    <div class="container container-pad50">
+       <div class="row text-center">
+           <h2>Contact Us</h2>
+       </br>
+        <h3>Give us an idea of your project and we will soon contact you to discuss it.</h3>
+       </div>
+        <div class="contact-form-bottom">
+            <div class="col-md-3 address">
+
+                <address>
+                    <h5>Address:</h5>
+                    <p>1374 Jarvis Ave</p>
+                    <p>Elk Grove Village, IL 60007</p>
+                    <h5>Phone:</h5>
+                    <p>(847)268-8866</p>
+                    <h5>Fax:</h5>
+                    <p>(847)640-7220</p>
+                </address>
+            </div>
+            <form>
+            <div class="col-md-4 contact-form">
+                <div class="contact-form-row">
+                    <div>
+                        <span>Name</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <div>
+                        <span>Email</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <div>
+                        <span>phone</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <br/>
+                </div>
+        </div>
+        <div class="col-md-4 contact-form-row comments">
+            <div>
+                <span>Comments</span>
+                <textarea value=""></textarea>
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+        </form>
+        <div class="clearfix"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+<!--    END CONTACT SECTION-->
+
+<!--//carousel-->

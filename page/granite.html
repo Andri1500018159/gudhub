@@ -1,0 +1,140 @@
+<carousel interval="5000">
+  <slide ng-repeat="slide in slidesSml" active="slide.active">
+    <img ng-src="{{slide.image}}" style="margin:auto;">
+  </slide>
+</carousel>
+<div class="container container-pad50 product">
+    <div class="row">
+       <h1>GRANITE</h1>
+        <h3>Granite is one of the oldest, most popular and respected natural stones on the market.
+Available in striking array of colors, granite&rsquo;s durability and longevity makes it ideal for kitchen countertops and other heavily used surfaces, including table tops and floors.</h3>
+        <hr class="line"/>
+        <div class="col-md-5 col-xs-12">
+           <img src="../images/granite.jpg" alt="Granite" width="100%" />
+        </div>
+        <div class="col-md-7 col-xs-12">
+           <p>Granite is highly resistant to scratching as it is one of the hardest stone materials. It is heat resistant and is not typically affected by citric acid, coffee, tea, alcohol or wine. With proper sealing and cleaning, granite will not stain under normal use.</p>
+        </div>
+    </div>
+    </div>
+    <br/>
+    <div class="container-pad50 bg-blue">
+        <div class="container">
+            <div class="row product text-center" style="color: #fff;">
+                <h2>Recommended use</h2>
+                <br/>
+                <div class="col-md-12 col-xs-12">
+                   <h3>Granite received the the highest overall performance rating as as kitchen countertop material. Because of its exceptional strength, granite is well suited for interior flooring and exterior applications such as cladding, paving and curbing.</h3>
+                </div>
+            </div>
+
+           <div class="row container-pad50 fIcons">
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                    <img src="../images/svg/kitchen12.svg" alt="Kitchen Countertop">
+                    <h3>Kitchen Countertop</h3>
+
+                </div>
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center" >
+                    <img src="../images/svg/tiles1.svg" alt="Floor Tile">
+                    <h3>Floor Tile</h3>
+
+                </div>
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                    <img src="../images/svg/stairs12.svg" alt="Stair Treads">
+                    <h3>Stair Treads</h3>
+
+
+                </div>
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                    <img src="../images/svg/stones.svg" alt="Wall Venners<">
+                    <h3>Wall Veneers</h3>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br/>
+
+
+    <!--    GRANITE SAMPLES  SECTION-->
+    <div class="container container-pad50 product">
+        <div class="row product text-center">
+            <h3>View a few of available granite colors below, click to see a larger image of  material.</h3>
+            <div class="row">
+
+                <br/>
+                <div class="wrapper-product">
+                <div ng-repeat="item in granite" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
+                   <a href="{{item.href}}">
+                       <img class="item-image" ng-src="{{item.image}}" width="100%" />
+                       <span class="title">{{item.title}}</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clearfix"> </div>
+    </div>
+
+
+
+ <!--    CONTACT SECTION-->
+    <div class="bg-grey">
+
+    <div class="contact-section" id="contact">
+    <div class="container container-pad50">
+       <div class="row text-center">
+           <h2>Contact Us</h2>
+       </br>
+        <h3>For specific material requests, please contact our office and provide the name of the tile or slab of your interest.</h3>
+       </div>
+        <div class="contact-form-bottom">
+            <div class="col-md-3 address">
+
+                <address>
+                    <h5>Address:</h5>
+                    <p>1374 Jarvis Ave</p>
+                    <p>Elk Grove Village, IL 60007</p>
+                    <h5>Phone:</h5>
+                    <p>(847)268-8866</p>
+                    <h5>Fax:</h5>
+                    <p>(847)640-7220</p>
+                </address>
+            </div>
+            <form>
+            <div class="col-md-4 contact-form">
+                <div class="contact-form-row">
+                    <div>
+                        <span>Name</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <div>
+                        <span>Email</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <div>
+                        <span>phone</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <br/>
+                </div>
+        </div>
+        <div class="col-md-4 contact-form-row comments">
+            <div>
+                <span>Comments</span>
+                <textarea value=""></textarea>
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+        </form>
+        <div class="clearfix"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+<!--    END CONTACT SECTION-->
+<!--//carousel-->

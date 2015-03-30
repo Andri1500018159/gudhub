@@ -1,0 +1,155 @@
+<carousel interval="5000">
+  <slide ng-repeat="slide in slidesSml" active="slide.active">
+    <img ng-src="{{slide.image}}" style="margin:auto;">
+  </slide>
+</carousel>
+<div class="container container-pad50 product">
+    <div class="row">
+       <h1>LIMESTONE/TRAVERTINE</h1>
+        <h3>Limestone is an organic rock formed from the remains of tiny shells and microskeletons
+deposited on the sea
+bed. Limestone erosion is responsible for the formation of some of the world's most spectacular caverns.
+Travertine is a natural stone material from the limestone family. It is made of calcium carbonate and is usually
+found in the form of deposits near warm or hot springs.</h3>
+        <hr class="line"/>
+        <div class="col-md-5 col-xs-12">
+           <img src="../images/limestone.jpg" alt="Marble" width="100%" />
+        </div>
+        <div class="col-md-7 col-xs-12">
+           <p>Limestone and travertine are longlasting
+materials
+and stand up well to exposure. They are resistant to
+heat, scratching and staining but are vulnerable to
+alteration by exposure to mild acids.
+Certain limestones are hard enough to maintain a
+polish but many more can only be honed. Travertine in
+its way if left unfilled, may not be the most practical
+choice for horizontal surfaces.</p>
+        </div>
+    </div>
+    </div>
+    <br/>
+    <div class="container-pad50 bg-blue">
+        <div class="container">
+            <div class="row product text-center" style="color: #fff;">
+                <h2>Recommended use</h2>
+                <br/>
+                <div class="col-md-12 col-xs-12">
+                    <h3>Limestone and travertine are both commonly used for kitchen, bathroom wall tile, bathroom floor tile.
+Limestone also is frequently seen in countertops or can be used for fireplace hearths, mantels and
+fireplaces.These materials create a new stylish look to any home.</h3>
+                </div>
+            </div>
+
+           <div class="row container-pad50 fIcons">
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                    <img src="../images/svg/large16.svg" alt="">
+                    <h3>Kitchen Wall Tile</h3>
+
+                </div>
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center" >
+                    <img src="../images/svg/closed51.svg" alt="">
+                    <h3>Bathroom Wall Tile</h3>
+
+                </div>
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                    <img src="../images/svg/kitchen12.svg" alt="">
+                    <h3>Kitchen Countertops</h3>
+
+
+                </div>
+                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                    <img src="../images/svg/fireplace4.svg" alt="">
+                    <h3>Fireplaces</h3>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br/>
+
+
+
+<!-- MARBLE SAMPLES SECTION-->
+    <div class="container container-pad50 product">
+        <div class="row product text-center">
+
+            <h3>View samples of limestone and travertine colors below, click to see the larger image of material you can get for your project</h3>
+            <div class="row">
+
+                <br/>
+                <div class="wrapper-product">
+                    <div ng-repeat="item in marble" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
+                       <a><!-- a href="{{item.href}}" -->
+                           <img class="item-image" ng-src="{{item.image}}" width="100%" />
+                           <span class="title">{{item.title}}</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clearfix"> </div>
+    </div>
+
+
+<!--    CONTACT SECTION-->
+    <div class="bg-grey">
+
+    <div class="contact-section" id="contact">
+    <div class="container container-pad50">
+       <div class="row text-center">
+           <h2>Contact Us</h2>
+       </br>
+        <h3>Give us an idea of your project and we will soon contact you to discuss it.</h3>
+       </div>
+        <div class="contact-form-bottom">
+            <div class="col-md-3 address">
+
+                <address>
+                    <h5>Address:</h5>
+                    <p>1374 Jarvis Ave</p>
+                    <p>Elk Grove Village, IL 60007</p>
+                    <h5>Phone:</h5>
+                    <p>(847)268-8866</p>
+                    <h5>Fax:</h5>
+                    <p>(847)640-7220</p>
+                </address>
+            </div>
+            <form>
+            <div class="col-md-4 contact-form">
+                <div class="contact-form-row">
+                    <div>
+                        <span>Name</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <div>
+                        <span>Email</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <div>
+                        <span>phone</span>
+                        <input type="text" class="text" value="" />
+                    </div>
+                    <br/>
+                </div>
+        </div>
+        <div class="col-md-4 contact-form-row comments">
+            <div>
+                <span>Comments</span>
+                <textarea value=""></textarea>
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+        </form>
+        <div class="clearfix"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+<!--    END CONTACT SECTION-->
+
+<!--//carousel-->

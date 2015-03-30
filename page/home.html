@@ -1,0 +1,57 @@
+<carousel interval="5000">
+  <slide ng-repeat="slide in slides" active="slide.active">
+    <img ng-src="{{slide.image}}" style="margin:auto;">
+  </slide>
+</carousel>
+<!--//carousel-->
+<div class="container container-pad50 service">
+    <h1>Illinois Granite & Marble</h1>
+    <h2>We specialize in custom fabrication and installation of natural and engineered stone.</h2>
+    <div class="col-md-4 col-xs-12">
+       <div class="wrap-img">
+        <img src="./images/svg/icon_selection.svg" style="height: 114px; margin-left: 27px;"/>
+        </div>
+        <h5>Product Selection</h5>
+        <p>With wide variety of marble, granite, quartzite, limestone, onyx and engineered stone we will deliver outstanding solutions for you.<br/><a href="#" class="more">Read more...</a></p>
+    </div>
+    <div class="col-md-4 col-xs-12">
+       <div class="wrap-img">
+            <img src="./images/svg/icon_fabrication.svg" style="height: 114px; margin-left: 15px;"/>
+        </div>
+        <h5>Fabrication</h5>
+        <p>We offer many countertop edge shapes. Personalize your design with an attractive edge profile. <a href="#" class="more">Read more...</a></p>
+    </div>
+    <div class="col-md-4 col-xs-12">
+        <div class="wrap-img">
+            <img src="./images/svg/icon_stone.svg" style="height: 114px;"/>
+        </div>
+        <h5>Stone & Tile Installation</h5>
+        <p>No matter how you want to alter the appearance or scale of a room, there is a countertop edge shape and a tile pattern designed to work just for your specific needs and desires. <a href="#" class="more">Read more...</a></p>
+    </div>
+    <div class="clearfix"> </div>
+</div>
+<div class="container-img">
+    <div class="container-carousel container-pad50 bg-blue">
+       <h1>Featured Projects</h1>
+       <p>Take a look at our portfolio: </p>
+        <carousel interval="0">
+          <slide ng-repeat="slide in carousel" active="slide.active">
+           <div class="wrapper col-md-4 col-lg-4 col-sm-4 col-xs-4">
+            <img ng-src="{{slide.image1}}" width="100%" style="float: left;" />
+           </div>
+           <div class="wrapper col-md-4 col-lg-4 col-sm-4 col-xs-4">
+            <img ng-src="{{slide.image2}}" width="100%" style="float: left;" />
+           </div>
+           <div class="wrapper col-md-4 col-lg-4 col-sm-4 col-xs-4">
+            <img ng-src="{{slide.image3}}" width="100%" style="float: left;" />
+           </div>
+          </slide>
+        </carousel>
+    </div>
+</div>
+<div class="container-suppliers container-pad50">
+   <h1>Company News</h1>
+   <div class="suppliers-wrap">
+      <br/><br/><br/><br/>
+    </div>
+</div>
