@@ -92,18 +92,30 @@ app.controller('MainCtrl', function( $scope ) {
         },
         {
             image : './images/slide/slide3.jpg'
+        },
+         {
+            image : './images/slide/slide4.jpg'
+        },
+         {
+            image : './images/slide/slide5.jpg'
         }
     ];
 
     $scope.slidesSml = [
         {
-            image : './images/slide/slideSml1.jpg'
+            image : './images/slide/slide1sml.jpg'
         },
         {
-            image : './images/slide/slideSml2.jpg'
+            image : './images/slide/slide2sml.jpg'
         },
         {
-            image : './images/slide/slideSml3.jpg'
+            image : './images/slide/slide3sml.jpg'
+        },
+          {
+            image : './images/slide/slide4sml.jpg'
+        },
+          {
+            image : './images/slide/slide5sml.jpg'
         }
     ];
 
@@ -111,17 +123,24 @@ app.controller('MainCtrl', function( $scope ) {
         {
             image1 : './images/slide/slide1.jpg',
             image2 : './images/slide/slide2.jpg',
-            image3 : './images/slide/slide3.jpg'
+            image3 : './images/slide/slide3.jpg',
+            image4 : './images/slide/slide4.jpg',
+            image5 : './images/slide/slide5.jpg'
+
         },
         {
-            image1 : './images/slide/slide2.jpg',
-            image2 : './images/slide/slide3.jpg',
-            image3 : './images/slide/slide1.jpg'
+            image1 : './images/slide/slide1.jpg',
+            image2 : './images/slide/slide2.jpg',
+            image3 : './images/slide/slide3.jpg',
+            image4 : './images/slide/slide4.jpg',
+            image5 : './images/slide/slide5.jpg'
         },
         {
-            image1 : './images/slide/slide3.jpg',
-            image2 : './images/slide/slide1.jpg',
-            image3 : './images/slide/slide2.jpg'
+            image1 : './images/slide/slide1.jpg',
+            image2 : './images/slide/slide2.jpg',
+            image3 : './images/slide/slide3.jpg',
+            image4 : './images/slide/slide4.jpg',
+            image5 : './images/slide/slide5.jpg'
         }
     ];
 
