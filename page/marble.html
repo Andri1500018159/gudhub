@@ -68,11 +68,11 @@
                 <br/>
                 <div class="wrapper-product">
                     <div ng-repeat="item in marble" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
-                       <a><!-- a href="{{item.href}}" -->
-                           <img class="item-image" ng-src="{{item.image}}" width="100%" />
-                           <span class="title">{{item.title}}</span>
-                        </a>
-                    </div>
+                   <a class="fancybox" data-fancybox-group="gallery" href="{{item.href}}" title="{{item.title}}">
+                       <img class="item-image" ng-src="{{item.image}}" width="100%" />
+                       <span class="title">{{item.title}}</span>
+                    </a>
+                </div>
                 </div>
             </div>
         </div>

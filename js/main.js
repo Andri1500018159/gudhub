@@ -93,12 +93,7 @@ app.controller('MainCtrl', function( $scope ) {
         {
             image : './images/slide/slide3.jpg'
         },
-         {
-            image : './images/slide/slide4.jpg'
-        },
-         {
-            image : './images/slide/slide5.jpg'
-        }
+
     ];
 
     $scope.slidesSml = [
@@ -111,12 +106,7 @@ app.controller('MainCtrl', function( $scope ) {
         {
             image : './images/slide/slide3sml.jpg'
         },
-          {
-            image : './images/slide/slide4sml.jpg'
-        },
-          {
-            image : './images/slide/slide5sml.jpg'
-        }
+
     ];
 
     $scope.carousel = [
@@ -226,62 +216,62 @@ app.controller('MainCtrl', function( $scope ) {
         {
 			title: "Bianco Carrara",
             image : './images/marble/BiancoCarrara_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/BiancoCarrara_Slab.jpg'
         },
          {
 			title: "Bronzo Armani",
             image : './images/marble/BronzoArmani_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/BronzoArmani_slab.jpg'
         },
          {
 			title: "Calacatta Gold",
             image : './images/marble/CalacattaGold_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/CalacattaGold_Slab.jpg'
         },
          {
 			title: "Crema Murfil",
             image : './images/marble/CremaMurfil_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/CremaMurfil_Slab.jpg'
         },
          {
 			title: "Emperador Dark",
             image : './images/marble/EmperadorDark_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/EmperadorDark_Slab.jpg'
         },
 		{
 			title: "Nero Marquina",
             image : './images/marble/NeroMarquina_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/NeroMarquina_Slab.jpg'
         },
 		{
 			title: "Nero Portoro",
             image : './images/marble/NeroPortoro_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/NeroPortoro_Slab.jpg'
         },
          {
 			title: "Rain Forest",
             image : './images/marble/RainForest_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/RainForest_Slab.jpg'
         },
          {
 			title: "Rosa Verona",
             image : './images/marble/RosaVerona_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/RosaVerona_Slab.jpg'
         },
          {
 			title: "Statuary",
             image : './images/marble/Statuary_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/Statuary_slab.jpg'
         },
          {
 			title: "Striato Olympico",
             image : './images/marble/StriatoOlympico_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/StriatoOlympico_Slab.jpg'
         },
 		{
 			title: "Turkish Emperador",
             image : './images/marble/TurkishEmperador_Sample.jpg',
-            href: './images/marble.jpg'
+            href: './images/marble/TurkishEmperador_Slab.jpg'
         }
     ];
 
