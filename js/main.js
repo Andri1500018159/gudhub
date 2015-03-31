@@ -123,25 +123,17 @@ app.controller('MainCtrl', function( $scope ) {
         {
             image1 : './images/slide/slide1.jpg',
             image2 : './images/slide/slide2.jpg',
-            image3 : './images/slide/slide3.jpg',
-            image4 : './images/slide/slide4.jpg',
-            image5 : './images/slide/slide5.jpg'
+            image3 : './images/slide/slide3.jpg'
+
 
         },
         {
-            image1 : './images/slide/slide1.jpg',
-            image2 : './images/slide/slide2.jpg',
-            image3 : './images/slide/slide3.jpg',
-            image4 : './images/slide/slide4.jpg',
-            image5 : './images/slide/slide5.jpg'
-        },
-        {
-            image1 : './images/slide/slide1.jpg',
-            image2 : './images/slide/slide2.jpg',
-            image3 : './images/slide/slide3.jpg',
-            image4 : './images/slide/slide4.jpg',
-            image5 : './images/slide/slide5.jpg'
+            image1 : './images/slide/slide4.jpg',
+            image2 : './images/slide/slide5.jpg',
+            image3 : './images/slide/slide1.jpg'
+
         }
+
     ];
 
     $scope.suppliers = [
@@ -171,62 +163,62 @@ app.controller('MainCtrl', function( $scope ) {
         {
 			title: "Azul Aran",
             image : './images/granite/AzulAran_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/AzulAran_SLAB.jpg'
         },
          {
 			title: "Azul Bahia",
             image : './images/granite/AzulBahia_sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/AzulBahia_Slab.jpg'
         },
          {
 			title: "Azul Imperial",
             image : './images/granite/AzulImperial_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/AzulImperial_Slab.jpg'
         },
          {
 			title: "Bianco Romano",
             image : './images/granite/BiancoRomano_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/BiancoRomano_Slab.jpg'
         },
          {
 			title: "Black Galaxy",
             image : './images/granite/BlackGalaxy_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/BlackGalaxy_Slab.jpg'
         },
 		{
 			title: "Cooper Canyon",
             image : './images/granite/CopperCanyon_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/CopperCanyon_Slab.jpg'
         },
 		{
 			title: "Cosmos",
             image : './images/granite/Cosmos_sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/Cosmos_Slab.jpg'
         },
          {
 			title: "Costa Esmeralda",
             image : './images/granite/CostaEsmeralda_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/CostaEsmeralda_Slab.jpg'
         },
          {
 			title: "Giallo Veneziano",
             image : './images/granite/GialloVeneziano_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/GialloVeneziano_Slab.jpg'
         },
          {
 			title: "Sapphire Blue",
             image : './images/granite/SapphireBlue_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/SapphireBlue_Slab.jpg'
         },
          {
 			title: "Tropic Brown",
             image : './images/granite/TropicBrown_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/TropicBrown_Slab.jpg'
         },
 		{
 			title: "White Srping",
             image : './images/granite/WhiteSpring_Sample.jpg',
-            href: './images/granite.jpg'
+            href: './images/granite/WhiteSpring_Slab.jpg'
         }
     ];
 
