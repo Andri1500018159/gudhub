@@ -64,7 +64,24 @@ app.controller('MainCtrl', function( $scope ) {
 			 {
                  name: "Design Tools",
                  href: "#/design-tools",
-				 active: false
+				 active: false,
+                 submenu: [
+                            {
+                                name: "kitchen",
+                                href: "#/kitchen",
+								active: false
+                             },
+                             {
+                                 name: "2",
+                                 href: "#/marble",
+								 active: false
+                             },
+                             {
+                                 name: "3",
+                                 href: "#/engineering-stone-quartz",
+								 active: false
+                             }
+                         ]
 			 },
 			 {
                  name: "Suppliers",
@@ -234,7 +251,7 @@ app.controller('MainCtrl', function( $scope ) {
             href: './images/marble/CremaMurfil_Slab.jpg'
         },
          {
-			title: "Emperador Dark",
+			title: "Emperador dark",
             image : './images/marble/EmperadorDark_Sample.jpg',
             href: './images/marble/EmperadorDark_Slab.jpg'
         },
@@ -312,6 +329,9 @@ app.config(function($routeProvider, $locationProvider) {
 		  })
 		  .when('/contact-us', {
 			  templateUrl: '/page/contact.html'
+		  })
+		  .when('/kitchen', {
+			  templateUrl: '/page/kitchen.html'
 		  })
 		  .otherwise({
 			  redirectTo: '/'

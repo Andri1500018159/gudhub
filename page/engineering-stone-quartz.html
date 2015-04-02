@@ -1,141 +1,123 @@
 <carousel interval="5000">
-  <slide ng-repeat="slide in slidesSml" active="slide.active">
-    <img ng-src="{{slide.image}}" style="margin:auto;">
-  </slide>
+    <slide ng-repeat="slide in slidesSml" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+    </slide>
 </carousel>
 <div class="container container-pad50 product">
     <div class="row">
-       <h1>ENGINEERED STONE/QUARTZ</h1>
+        <h1>ENGINEERED STONE/QUARTZ</h1>
         <h3>Engineered stone is a material made of crushed natural stone and a polymer resin binder. Quartz is the key ingredient (usually about 93%). This combination is used to enhance properties of natural stone, and form it into a product that is more workable and usable.</h3>
-        <hr class="line"/>
+        <div class="separator"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-5 col-xs-12">
-           <img src="../images/onyx.jpg" alt="onyx" width="100%" />
+            <img src="../images/onyx.jpg" alt="onyx" width="100%" />
         </div>
-        <div class="col-md-7 col-xs-12">
-           <p>Engineered stone is one of the most environmentally friendly materials you can choose. It is less porous, more flexible, and harder than many types of natural stone. One of the most practical options of engineered stone is that it stands up to staining, heat and scratching. Unlike natural stone, it never requires sealing.</p>
+        <div class="col-md-4 col-xs-12">
+            <p>Engineered stone is one of the most environmentally friendly materials you can choose. It is less porous, more flexible, and harder than many types of natural stone. One of the most practical options of engineered stone is that it stands up to staining, heat and scratching. Unlike natural stone, it never requires sealing.</p>
         </div>
     </div>
-    </div>
-    <br/>
-    <div class="container-pad50 bg-blue">
-        <div class="container">
-            <div class="row product text-center" style="color: #fff;">
-                <h2>Recommended use</h2>
-                <br/>
-                <div class="col-md-12 col-xs-12">
-                    <h3>Listed above benefits make engineered stone a perfect choice for countertops. In addition to kitchen countertops, engineered stone products are suitable for shower and tub  surrounds, vanity tops and other surfaces in wet areas.The cons are that comparing to natural stone this material can be really expensive and although it can come pretty close to looking like real stone it is still not such and does not have the same natural color variations.</h3>
-                </div>
+</div>
+<br/>
+<div class="container-pad50 bg-blue">
+    <div class="container">
+        <div class="row product text-center" style="color: #fff;">
+            <h2>Recommended use</h2>
+            <br/>
+            <div class="col-md-12 col-xs-12">
+                <h3>Listed above benefits make engineered stone a perfect choice for countertops. In addition to kitchen countertops, engineered stone products are suitable for shower and tub  surrounds, vanity tops and other surfaces in wet areas.The cons are that comparing to natural stone this material can be really expensive and although it can come pretty close to looking like real stone it is still not such and does not have the same natural color variations.</h3>
             </div>
-
-            <div class="row container-pad50 fIcons">
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
-                    <img src="../images/svg/kitchen12.svg" alt="">
-                    <h3>Kitchen Countertop</h3>
-
-                </div>
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center" >
-                    <img src="../images/svg/bathroom12.svg" alt="">
-                    <h3>Vanity Top</h3>
-
-                </div>
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
-                    <img src="../images/svg/closed51.svg" alt="">
-                    <h3>Bathroom wall tile</h3>
-
-
-                </div>
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
-                    <img src="../images/svg/tiles1.svg" alt="">
-                    <h3>Floor Tile</h3>
-
-
-                </div>
+        </div>
+        <div class="row container-pad50 fIcons">
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/kitchen12.svg" alt="">
+                <h3>Kitchen Countertop</h3>
             </div>
-
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/bathroom12.svg" alt="">
+                <h3>Vanity Top</h3>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/closed51.svg" alt="">
+                <h3>Bathroom wall tile</h3>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/tiles1.svg" alt="">
+                <h3>Floor Tile</h3>
+            </div>
         </div>
     </div>
-    <br/>
-
-
-
+</div>
+<br/>
 <!-- MARBLE SAMPLES SECTION-->
-    <div class="container container-pad50 product">
-        <div class="row product text-center">
-
-            <h3>View samples of quartz and engineered stone colors below, click to see the larger image of material you can get for your project</h3>
-            <div class="row">
-
-                <br/>
-                <div class="wrapper-product">
-                    <div ng-repeat="item in marble" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
-                       <a><!-- a href="{{item.href}}" -->
-                           <img class="item-image" ng-src="{{item.image}}" width="100%" />
-                           <span class="title">{{item.title}}</span>
-                        </a>
-                    </div>
+<div class="container container-pad50 product">
+    <div class="row product text-center">
+        <h3>View samples of quartz and engineered stone colors below, click to see the larger image of material you can get for your project</h3>
+        <div class="row">
+            <br/>
+            <div class="wrapper-product">
+                <div ng-repeat="item in marble" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
+                    <a>
+                        <!-- a href="{{item.href}}" -->
+                        <img class="item-image" ng-src="{{item.image}}" width="100%" />
+                        <span class="title">{{item.title}}</span>
+                    </a>
                 </div>
             </div>
         </div>
-
-
-        <div class="clearfix"> </div>
     </div>
-
-
+    <div class="clearfix"></div>
+</div>
 <!--    CONTACT SECTION-->
-    <div class="bg-grey">
-
+<div class="bg-grey">
     <div class="contact-section" id="contact">
-    <div class="container container-pad50">
-       <div class="row text-center">
-           <h2>Contact Us</h2>
-       </br>
-        <h3>For specific material requests, please contact our office and provide the name of the tile or slab of your interest.</h3>
-       </div>
-        <div class="contact-form-bottom">
-            <div class="col-md-3 address">
-
-                <address>
-                    <h5>Address:</h5>
-                    <p>1374 Jarvis Ave</p>
-                    <p>Elk Grove Village, IL 60007</p>
-                    <h5>Phone:</h5>
-                    <p>(847)268-8866</p>
-                    <h5>Fax:</h5>
-                    <p>(847)640-7220</p>
-                </address>
+        <div class="container container-pad50">
+            <div class="row text-center">
+                <h2>Contact Us</h2>
+                </br>
+                <h3>For specific material requests, please contact our office and provide the name of the tile or slab of your interest.</h3>
             </div>
-            <form>
-            <div class="col-md-4 contact-form">
-                <div class="contact-form-row">
-                    <div>
-                        <span>Name</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <div>
-                        <span>Email</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <div>
-                        <span>phone</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <br/>
+            <div class="contact-form-bottom">
+                <div class="col-md-3 address">
+                    <address>
+                                        <h5>Address:</h5>
+                                        <p>1374 Jarvis Ave</p>
+                                        <p>Elk Grove Village, IL 60007</p>
+                                        <h5>Phone:</h5>
+                                        <p>(847)268-8866</p>
+                                        <h5>Fax:</h5>
+                                        <p>(847)640-7220</p>
+                                    </address>
                 </div>
-        </div>
-        <div class="col-md-4 contact-form-row comments">
-            <div>
-                <span>Comments</span>
-                <textarea value=""></textarea>
-                <input type="submit" value="Submit" />
+                <form>
+                    <div class="col-md-4 contact-form">
+                        <div class="contact-form-row">
+                            <div>
+                                <span>Name</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <div>
+                                <span>Email</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <div>
+                                <span>phone</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-md-4 contact-form-row comments">
+                        <div>
+                            <span>Comments</span>
+                            <textarea value=""></textarea>
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </div>
+                </form>
+                <div class="clearfix"></div>
             </div>
         </div>
-        </form>
-        <div class="clearfix"></div>
     </div>
-    </div>
-    </div>
-    </div>
+</div>
 <!--    END CONTACT SECTION-->
-
 <!--//carousel-->

@@ -1,107 +1,105 @@
 <carousel interval="5000">
-  <slide ng-repeat="slide in slidesSml" active="slide.active">
-    <img ng-src="{{slide.image}}" style="margin:auto;">
-  </slide>
+    <slide ng-repeat="slide in slidesSml" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+    </slide>
 </carousel>
 <div class="container container-pad50 product">
     <div class="row">
-       <h1>QUARTZITE</h1>
+        <h1>QUARTZITE</h1>
         <h3>Quartzite is a metamorphic rock, it consists mainly from quartz (more than 80%) and it can be found in massive
 blocks or stratified. This attractive stone is suitable for both indoor and outdoor areas.</h3>
-        <hr class="line"/>
+        <div class="separator"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-5 col-xs-12">
-           <img src="../images/quartzite.jpg" alt="Marble" width="100%" />
+            <img src="../images/quartzite.jpg" alt="Marble" width="100%" />
         </div>
-        <div class="col-md-7 col-xs-12">
-           <p>Quartzite is harder than granite, so it is extremely
-durable and takes heat very well.
-Being a very chemically resistant stone, its surface can
-however be scratched by sharp objects. It also shares
-the weakness of all natural stones stain.</p>
+        <div class="col-md-4 col-xs-12">
+            <p>Quartzite is harder than granite, so it is extremely durable and takes heat very well. Being a very chemically resistant stone, its surface can however be scratched by sharp objects. It also shares the weakness of all natural stones stain.</p>
         </div>
     </div>
-    </div>
-    <br/>
-    <div class="container-pad50 bg-blue">
-        <div class="container">
-            <div class="row product text-center" style="color: #fff;">
-                <h2>Recommended use</h2>
-                <br/>
-                <div class="col-md-12 col-xs-12">
-                    <h3>Due to its highly reactive nature to acids it is not recommended for kitchen countertops, it is more commonly
+</div>
+<br/>
+<div class="container-pad50 bg-blue">
+    <div class="container">
+        <div class="row product text-center" style="color: #fff;">
+            <h2>Recommended use</h2>
+            <br/>
+            <div class="col-md-12 col-xs-12">
+                <h3>Due to its highly reactive nature to acids it is not recommended for kitchen countertops, it is more commonly
         used for flooring, vanities, sinks and fireplace surrounds.
         Because of its beauty and softness it has always been used by artists</h3>
-                </div>
             </div>
-
-           <div class="row container-pad50 fIcons">
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
-                    <img src="../images/svg/kitchen12.svg" alt="">
-                    <h3>Kitchen Countertop</h3>
-
-                </div>
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center" >
-                    <img src="../images/svg/tiles1.svg" alt="">
-                    <h3>Floor Tile</h3>
-
-                </div>
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
-                    <img src="../images/svg/stairs12.svg" alt="">
-                    <h3>Stair Treads</h3>
-
-
-                </div>
-                <div class="col-lg-3 col-xs-6 col-md-6 text-center">
-                    <img src="../images/svg/roof3.svg" alt="">
-                    <h3>Roof tile</h3>
-
-
-                </div>
-            </div>
-
         </div>
+
+        <div class="row container-pad50 fIcons">
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/kitchen12.svg" alt="">
+                <h3>Kitchen Countertop</h3>
+
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/tiles1.svg" alt="">
+                <h3>Floor Tile</h3>
+
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/stairs12.svg" alt="">
+                <h3>Stair Treads</h3>
+
+
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-6 text-center">
+                <img src="../images/svg/roof3.svg" alt="">
+                <h3>Roof tile</h3>
+
+
+            </div>
+        </div>
+
     </div>
-    <br/>
+</div>
+<br/>
 
 
 
 <!-- MARBLE SAMPLES SECTION-->
-    <div class="container container-pad50 product">
-        <div class="row product text-center">
-            <h3>View samples of quartzite colors below, click to see the larger image of material you can get for your project</h3>
-            <div class="row">
+<div class="container container-pad50 product">
+    <div class="row product text-center">
+        <h3>View samples of quartzite colors below, click to see the larger image of material you can get for your project</h3>
+        <div class="row">
 
-                <br/>
-                <div class="wrapper-product">
-                    <div ng-repeat="item in marble" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
-                       <a><!-- a href="{{item.href}}" -->
-                           <img class="item-image" ng-src="{{item.image}}" width="100%" />
-                           <span class="title">{{item.title}}</span>
-                        </a>
-                    </div>
+            <br/>
+            <div class="wrapper-product">
+                <div ng-repeat="item in marble" class="col-lg-2 col-md-4 col-sm-6 col-xs-6 item">
+                    <a>
+                        <!-- a href="{{item.href}}" -->
+                        <img class="item-image" ng-src="{{item.image}}" width="100%" />
+                        <span class="title">{{item.title}}</span>
+                    </a>
                 </div>
             </div>
         </div>
-
-
-        <div class="clearfix"> </div>
     </div>
 
 
+    <div class="clearfix"> </div>
+</div>
+
+
 <!--    CONTACT SECTION-->
-    <div class="bg-grey">
+<div class="bg-grey">
 
     <div class="contact-section" id="contact">
-    <div class="container container-pad50">
-       <div class="row text-center">
-           <h2>Contact Us</h2>
-       </br>
-        <h3>For specific material requests, please contact our office and provide the name of the tile or slab of your interest.</h3>
-       </div>
-        <div class="contact-form-bottom">
-            <div class="col-md-3 address">
+        <div class="container container-pad50">
+            <div class="row text-center">
+                <h2>Contact Us</h2>
+                </br>
+                <h3>For specific material requests, please contact our office and provide the name of the tile or slab of your interest.</h3>
+            </div>
+            <div class="contact-form-bottom">
+                <div class="col-md-3 address">
 
-                <address>
+                    <address>
                     <h5>Address:</h5>
                     <p>1374 Jarvis Ave</p>
                     <p>Elk Grove Village, IL 60007</p>
@@ -110,38 +108,38 @@ the weakness of all natural stones stain.</p>
                     <h5>Fax:</h5>
                     <p>(847)640-7220</p>
                 </address>
-            </div>
-            <form>
-            <div class="col-md-4 contact-form">
-                <div class="contact-form-row">
-                    <div>
-                        <span>Name</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <div>
-                        <span>Email</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <div>
-                        <span>phone</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <br/>
                 </div>
-        </div>
-        <div class="col-md-4 contact-form-row comments">
-            <div>
-                <span>Comments</span>
-                <textarea value=""></textarea>
-                <input type="submit" value="Submit" />
+                <form>
+                    <div class="col-md-4 contact-form">
+                        <div class="contact-form-row">
+                            <div>
+                                <span>Name</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <div>
+                                <span>Email</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <div>
+                                <span>phone</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-md-4 contact-form-row comments">
+                        <div>
+                            <span>Comments</span>
+                            <textarea value=""></textarea>
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </div>
+                </form>
+                <div class="clearfix"></div>
             </div>
         </div>
-        </form>
-        <div class="clearfix"></div>
     </div>
-    </div>
-    </div>
-    </div>
+</div>
 <!--    END CONTACT SECTION-->
 
 <!--//carousel-->

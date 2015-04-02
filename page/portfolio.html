@@ -1,75 +1,142 @@
+<script>
+    initIsotope();
+</script>
 <carousel interval="5000">
-  <slide ng-repeat="slide in slidesSml" active="slide.active">
-    <img ng-src="{{slide.image}}" style="margin:auto;">
-  </slide>
+    <slide ng-repeat="slide in slidesSml" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+    </slide>
 </carousel>
 <!--PORTFOLIO SECTION-->
-<div class="container container-pad50">
-    <div class="portfolio-title">
-  <div class="section-title">
-    <h1>Portfolio</h1>
-    <div class="separator"></div>
-    <p>Portfolio created with isotope - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto repellendus!</p>
-  </div>
-</div>
-
-<div id="filters" class="portfolio-filters">
-
-
-<nav>
-  <div class="container">
-  <a href="#" data-filter="*">All</a>
-  <a href="#" data-filter=".kitchens">Kitchens</a>
-  <a href="#" data-filter=".bathrooms">Bathrooms</a>
-  <a href="#" data-filter=".fireplaces">Fireplaces</a>
-  <a href="#" data-filter=".hallways">Hallways</a>
-  <a href="#" data-filter=".comercial">Commercial</a>
-  <a href="#" data-filter=".other">Other</a>
-  </div>
-    </nav>
-</div>
-
-<div id="Portfolio" class="portfolio">
-
-  <!-- portfolio item-->
-  <div class="portfolio-item fireplaces">
-    <div class="portfolio-image">
-      <img src="https://lh4.googleusercontent.com/czSe_W-b3yYFK7PDQWpaEAyRfv-2ccXg3qPnwqF3H9Bfp7kP9SAb6gJ-rmtV1qqdE-e4EA=w1272-h737" alt="image" />
+<div class="container portfolio-nav">
+    <div class="row">
+        <h1>Portfolio</h1>
+        <h3>Here are some of the latest works accomplished by Illinois Granite &amp; Marble Ltd.</h3>
+        <div class="separator"></div>
     </div>
-    <a href="#">
-
-    </a>
-  </div>
-  <!-- /portfolio item-->
-
-
-
+    <div id="filters" class="portfolio-filters">
+        <nav>
+            <div class="categories">
+                <a data-filter="*">All</a>
+                <a data-filter=".kitchens">Kitchens</a>
+                <a data-filter=".bathrooms">Bathrooms</a>
+                <a data-filter=".fireplaces">Fireplaces</a>
+                <a data-filter=".hallways">Hallways</a>
+                <a data-filter=".comercial">Commercial</a>
+                <a data-filter=".other">Other</a>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="row container-pad50">
+    <div id="Portfolio" class="portfolio">
+        <!-- portfolio item-->
+        <div class="portfolio-item bathrooms">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/a-28.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/a-28.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item fireplaces">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/a-39.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/a-39.jpg" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item bathrooms">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/a-4.jpg" alt="image">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/a-4.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item hallways">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/a-50.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/a-50.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item bathrooms">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/a-13.JPG">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/a-13.JPG" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!--         /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item fireplaces">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/slide1.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/slide1.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item kitchens">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/slide2.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/slide2.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item kitchens">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/slide3.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/slide3.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item kitchens">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/slide4.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/slide4.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+        <!-- portfolio item-->
+        <div class="portfolio-item kitchens">
+            <a class="fancybox" data-fancybox-group="gallery" href="/images/portfolio/slide5.jpg">
+                <div class="portfolio-image">
+                    <img src="/images/portfolio/slide5.jpg" alt="image" />
+                </div>
+            </a>
+        </div>
+        <!-- /portfolio item-->
+    </div>
 
 </div>
-
-
-    <div class="clearfix"></div>
-    </div>
-    <br/>
-
-
-
-
-
- <!--    CONTACT SECTION-->
-    <div class="bg-grey">
-
+<div class="clearfix"></div>
+</div>
+<br/>
+<!--    CONTACT SECTION-->
+<div class="bg-grey">
     <div class="contact-section" id="contact">
-    <div class="container container-pad50">
-       <div class="row text-center">
-           <h2>Contact Us</h2>
-       </br>
-        <h3>For specific material requests, please contact our office and provide the name of the tile or slab of your interest.</h3>
-       </div>
-        <div class="contact-form-bottom">
-            <div class="col-md-3 address">
-
-                <address>
+        <div class="container container-pad50">
+            <div class="row text-center">
+                <h2>Contact Us</h2>
+                </br>
+                <h3>For specific material requests, please contact our office and provide the name of the tile or slab of your interest.</h3>
+            </div>
+            <div class="contact-form-bottom">
+                <div class="col-md-3 address">
+                    <address>
                     <h5>Address:</h5>
                     <p>1374 Jarvis Ave</p>
                     <p>Elk Grove Village, IL 60007</p>
@@ -78,37 +145,35 @@
                     <h5>Fax:</h5>
                     <p>(847)640-7220</p>
                 </address>
-            </div>
-            <form>
-            <div class="col-md-4 contact-form">
-                <div class="contact-form-row">
-                    <div>
-                        <span>Name</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <div>
-                        <span>Email</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <div>
-                        <span>phone</span>
-                        <input type="text" class="text" value="" />
-                    </div>
-                    <br/>
                 </div>
-        </div>
-        <div class="col-md-4 contact-form-row comments">
-            <div>
-                <span>Comments</span>
-                <textarea value=""></textarea>
-                <input type="submit" value="Submit" />
+                <form>
+                    <div class="col-md-4 contact-form">
+                        <div class="contact-form-row">
+                            <div>
+                                <span>Name</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <div>
+                                <span>Email</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <div>
+                                <span>phone</span>
+                                <input type="text" class="text" value="" />
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-md-4 contact-form-row comments">
+                        <div>
+                            <span>Comments</span>
+                            <textarea value=""></textarea>
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </div>
+                </form>
+                <div class="clearfix"></div>
             </div>
         </div>
-        </form>
-        <div class="clearfix"></div>
     </div>
-    </div>
-    </div>
-    </div>
-<!--    END CONTACT SECTION-->
-
+    <!--    END CONTACT SECTION-->
