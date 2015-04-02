@@ -1036,8 +1036,11 @@ span.circles-text {
 /*kitchen*/
 .kitchen{
     padding-top: 96px;
+    background-color: #e9e7df
 }
-
+#2DShowRoom{
+    margin:0 auto;
+}
 /*--team--*/
 
 .team {
