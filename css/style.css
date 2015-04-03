@@ -1034,12 +1034,28 @@ span.circles-text {
 }
 
 /*kitchen*/
-.kitchen{
-    padding-top: 96px;
-    background-color: #e9e7df
+.tools{
+    margin-top: 96px;
+    padding-bottom:0;
+}
+.tools3{
+    margin-top: 119px;
+
 }
 #2DShowRoom{
     margin:0 auto;
+}
+.tools h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: none;
+}
+
+.tools h2 {
+    font-family: 'roboto';
+    font-size: 42px;
+    font-weight: 200;
 }
 /*--team--*/
 

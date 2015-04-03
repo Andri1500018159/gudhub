@@ -1,49 +1,73 @@
-<div class="row kitchen">
+
+<div class="container container-pad50 tools">
+    <div class="row">
+        <h1>KITCHEN VISUALIZER</h1>
+        <h3>With our interactive kitchen visualizer you can find the best stone for your project. Play with different options for cabinet door styles and finishes, countertops, backsplashes, flooring, wall paint colors and appliances.
+</h3>
+<h3>Save your design to be able to print it, send with email or get back to it later.</h3>
+        <div class="separator"></div>
+    </div>
+</div>
+
+<div class="row ">
 <div class="container">
  <!-- 2DShowRoom Widget container -->
-  <div style="margin:0 auto;" id="2DShowRoom">2D Show Room widget will be placed here</div>
-  <!-- /2DShowRoom Widget container -->
-  <!-- 2DShowRoom Widget code -->
-  <script type="text/javascript">
-  var ess2DRoomOptions =
-  {
-	host: 'easystoneshop.com',
-	path: '/applets/2DShowroom',
-	container: '2DShowRoom',
-	company: 508,
-	roomsUrl: 'data/room.xml'
-  };
-  (function(options)
-  {
-	var wName = 'EasyStoneShop 2DShowRoom Widget';
-	var advise = 'Please use correct options for widget embedding.';
-	if (!options.host || !options.path)
-	{
-	var msg = wName + ': widget host or path not defined. ' + advise;
-	alert(msg);
-	if (console.log)
- 	console.log(msg);
-	return false;
-	}
-	var baseUrl = '//' + options.host + options.path;
-	var container = document.getElementById(options.container);
-	if (!container)
-	{
-	var msg = wName + ': widget container "'+ options.container +'" not found. ' + advise;
-	alert(msg);
-	if (console.log)
- 	console.log(msg);
-	return false;
-	}
-	container.innerHTML = '<img src="'+ baseUrl +'/i/spinner.gif" alt="Loading..." title="Loading..."/>';
-	var script = document.createElement('sc'+'ri'+'pt');
-	script.type = 'text/java'+'sc'+'ri'+'pt';
-	script.async = true;
-	script.src = baseUrl + '/widget.js';
-	document.getElementsByTagName('head')[0].appendChild(script);
-	return true;
-  })(ess2DRoomOptions);
-  </script>
+  <!-- 2DShowRoom Widget container -->
+            <div id="2DShowRoom" style="margin: 0 auto;">
+                2D Show Room widget will be placed here
+            </div>
+            <!-- /2DShowRoom Widget container -->
+            <!-- 2DShowRoom Widget code -->
+            <script>
+            var ess2DRoomOptions =
+            {
+                host: 'easystoneshop.com',
+                path: '/_userdata/UserData/492/2dshowroom/data',
+                container: '2DShowRoom',
+                company: '508',
+                roomsUrl: '/_userdata/UserData/492/2dshowroom/data/rooms.xml',
+            };
+
+            (function(options)
+            {
+                var wName = 'EasyStoneShop 2DShowRoom Widget';
+                var advise = 'Please use correct options for widget embeding.';
+
+                if (!options.host)
+                {
+                    var msg = wName + ': widget host not defined. ' + advise;
+                    alert(msg);
+                    if (console.log)
+                        console.log(msg);
+                    return false;
+                }
+
+                var baseUrl = '//' + options.host + '/applets/2DShowroom';
+                var container = document.getElementById(options.container);
+
+                if (!container)
+                {
+                    var msg = wName + ': widget container "'+ options.container +'" not found. ' + advise;
+                    alert(msg);
+                    if (console.log)
+                        console.log(msg);
+                    return false;
+                }
+
+                container.innerHTML = '<img src="'+ baseUrl +'/i/spinner.gif" alt="Loading..." title="Loading..."/>';
+
+                var script = document.createElement('sc'+'ri'+'pt');
+                script.type = 'text/java'+'sc'+'ri'+'pt';
+                script.async = true;
+                script.src = baseUrl + '/widget.js';
+                document.getElementsByTagName('head')[0].appendChild(script);
+
+                return true;
+
+            })(ess2DRoomOptions);
+
+            </script>
+<!-- /2DShowRoom Widget code -->
   <!-- /2DShowRoom Widget code -->
 </div>
 </div>

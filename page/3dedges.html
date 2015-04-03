@@ -1,0 +1,70 @@
+
+<div class="container container-pad50 tools">
+    <div class="row">
+        <h1>3D Edges</h1>
+        <h3>Check out the countertop shapes that we offer. Custom edges available per request (special order).</h3>
+        <div class="separator"></div>
+    </div>
+</div>
+
+<div class="row ">
+<div class="container">
+ <!-- 2DShowRoom Widget container -->
+  <!-- 2DShowRoom Widget container -->
+            <div id="2DShowRoom" style="margin: 0 auto;">
+                2D Show Room widget will be placed here
+            </div>
+            <!-- /2DShowRoom Widget container -->
+            <!-- 2DShowRoom Widget code -->
+            <script>
+var ess2DRoomOptions =
+ {
+  host: 'easystoneshop.com',
+  path: '/_userdata/UserData/492/2DEdges',
+  container: '2DShowRoom',
+  company: '508',
+  roomsUrl: '/_userdata/UserData/492/2DEdges/data/edges.xml',
+  };
+
+ (function(options)
+ {
+  var wName = 'EasyStoneShop 2DShowRoom Widget';
+  var advise = 'Please use correct options for widget embeding.';
+
+  if (!options.host)
+  {
+   var msg = wName + ': widget host not defined. ' + advise;
+   alert(msg);
+   if (console.log)
+    console.log(msg);
+   return false;
+  }
+
+  var baseUrl = '//' + options.host + '/applets/2DEdges';
+  var container = document.getElementById(options.container);
+
+  if (!container)
+  {
+   var msg = wName + ': widget container "'+ options.container +'" not found. ' + advise;
+   alert(msg);
+   if (console.log)
+    console.log(msg);
+   return false;
+  }
+
+  container.innerHTML = '<img src="'+ baseUrl +'/i/spinner.gif" alt="Loading..." title="Loading..."/>';
+
+  var script = document.createElement('sc'+'ri'+'pt');
+  script.type = 'text/java'+'sc'+'ri'+'pt';
+  script.async = true;
+  script.src = baseUrl + '/widget.js';
+  document.getElementsByTagName('head')[0].appendChild(script);
+
+  return true;
+
+ })(ess2DRoomOptions);
+            </script>
+<!-- /2DShowRoom Widget code -->
+  <!-- /2DShowRoom Widget code -->
+</div>
+</div>

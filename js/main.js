@@ -67,18 +67,18 @@ app.controller('MainCtrl', function( $scope ) {
 				 active: false,
                  submenu: [
                             {
-                                name: "kitchen",
+                                name: "kitchen visualizer",
                                 href: "#/kitchen",
 								active: false
                              },
                              {
-                                 name: "2",
-                                 href: "#/marble",
+                                 name: "3D Edges",
+                                 href: "#/3dedges",
 								 active: false
                              },
                              {
-                                 name: "3",
-                                 href: "#/engineering-stone-quartz",
+                                 name: "Request Quote",
+                                 href: "#/requestquote",
 								 active: false
                              }
                          ]
@@ -332,6 +332,12 @@ app.config(function($routeProvider, $locationProvider) {
 		  })
 		  .when('/kitchen', {
 			  templateUrl: '/page/kitchen.html'
+		  })
+		  .when('/3dedges', {
+			  templateUrl: '/page/3dedges.html'
+		  })
+		  .when('/requestquote', {
+			  templateUrl: '/page/requestquote.html'
 		  })
 		  .otherwise({
 			  redirectTo: '/'
