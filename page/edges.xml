@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rooms>
+  <room name="Edges" thumbnail="/_resources/2dscenes/edges/defaultPic.jpg">
+
+    <!-- OBJECT LIST -->
+    <objectsList>
+
+      <!-- Wall Cabinet -->
+      <object objectID="Cntrtp_1" name="Edges">
+        <refs>
+          <layerRef dataType="Texture" layerID="21">
+            <attribute srcRef="fileName" destRef="texture.src" />
+          </layerRef>
+	  <layerRef dataType="Model" layerID="21">
+	    <attribute srcRef="mask" destRef="mask.src" />
+          </layerRef>
+	  <layerRef dataType="Model" layerID="22">
+	    <attribute srcRef="shadow" destRef="texture.src" />
+	    <attribute srcRef="mask" destRef="mask.src" />
+	  </layerRef>
+	  <layerRef dataType="Model" layerID="23">
+	    <attribute srcRef="light" destRef="texture.src" />
+	    <attribute srcRef="mask" destRef="mask.src" />
+	  </layerRef>
+	  <layerRef dataType="Model" layerID="24">
+	    <attribute srcRef="highlight" destRef="texture.src" />
+	    <attribute srcRef="mask" destRef="mask.src" />
+	  </layerRef>
+        </refs>
+      </object>
+
+    </objectsList>
+
+    <!-- CANVASE -->
+    <canvas id="13873219712412" sourceSize="680x540" destinationSize="680x540" transformType="crop" offset="0" isSaved="true" dpi="96" jpegCompression="0.9">
+      <group id="1" update="true" effect="Normal">
+        <layer id="1" draw="true" opacity="100" effect="Normal">
+          <texture src="2dscenes/edges/base.png" p1="0,0" p2="1024,0" p3="1024,683" p4="0,683" transform="false" tilingX="1" tilingY="1"/>
+        </layer>
+      </group>
+
+      <!--wallCabinet-->
+      <group id="2" update="false" effect="Normal">
+        <layer id="21" draw="true" opacity="100" effect="Normal">
+          <texture src="2dscenes/edges/angola_black.jpg" p1="0,0" p2="680,0" p3="680,540" p4="0,540" transform="true" tilingX="1" tilingY="1"/>
+          <mask src="2dscenes/edges/L04v2_mask.png"/>
+        </layer>
+        <layer id="22" draw="true" opacity="100" effect="Multiply">
+          <texture src="2dscenes/edges/L04v2_shadow.png" p1="0,0" p2="680,0" p3="680,540" p4="0,540" transform="false" tilingX="1" tilingY="1"/>
+	  <mask src="2dscenes/edges/L04v2_mask.png"/>
+        </layer>
+        <layer id="23" draw="true" opacity="100" effect="ColorDodge" exposition="10">
+          <texture src="2dscenes/edges/L04v2_light.png" p1="0,0" p2="680,0" p3="680,540" p4="0,540" transform="false" tilingX="1" tilingY="1"/>
+	  <mask src="2dscenes/edges/L04v2_mask.png"/>
+        </layer>
+	<layer id="24" draw="true" opacity="100" effect="Stamp" exposition="10">
+          <texture src="2dscenes/edges/L04v2_highlight.png" p1="0,0" p2="680,0" p3="680,540" p4="0,540" transform="false" tilingX="1" tilingY="1"/>
+	  <mask src="2dscenes/edges/L04v2_mask.png"/>
+        </layer>
+      </group>
+
+    </canvas>
+
+    <folders>
+      <folder dataType="Model" name="Edges" categoryType="Edges">
+        <item
+          data-id="#P01"
+          light="2dscenes/edges/P01_light.png"
+          shadow="2dscenes/edges/P01_shadow.png"
+          highlight="2dscenes/edges/P01_highlight.png"
+          mask="2dscenes/edges/P01_mask.png"
+          price="20" swatchFile="2dscenes/edges/P01_icon.png" swatchName="Ogee"
+        />
+	    <item
+          data-id="#P07"
+          light="2dscenes/edges/P07_light.png"
+          shadow="2dscenes/edges/P07_shadow.png"
+          highlight="2dscenes/edges/P07_highlight.png"
+          mask="2dscenes/edges/P07_mask.png"
+          price="20" swatchFile="2dscenes/edges/P07_icon.png" swatchName="Tripple Pencil"
+        />
+        <item
+          data-id="#U01"
+          light="2dscenes/edges/U01_light.png"
+          shadow="2dscenes/edges/U01_shadow.png"
+          highlight="2dscenes/edges/U01_highlight.png"
+          mask="2dscenes/edges/U01_mask.png"
+          price="20" swatchFile="2dscenes/edges/U01_icon.png" swatchName="Square"
+        />
+        <item
+          data-id="#U05"
+          light="2dscenes/edges/U05_light.png"
+          shadow="2dscenes/edges/U05_shadow.png"
+          highlight="2dscenes/edges/U05_highlight.png"
+          mask="2dscenes/edges/U05_mask.png"
+          price="20" swatchFile="2dscenes/edges/U05_icon.png" swatchName="Radius 1/4"
+        />
+        <item
+          data-id="#U07"
+          light="2dscenes/edges/U07_light.png"
+          shadow="2dscenes/edges/U07_shadow.png"
+          highlight="2dscenes/edges/U07_highlight.png"
+          mask="2dscenes/edges/U07_mask.png"
+          price="20" swatchFile="2dscenes/edges/U07_icon.png" swatchName="Full Bullnose"
+        />
+        <item
+          data-id="#U12"
+          light="2dscenes/edges/U12_light.png"
+          shadow="2dscenes/edges/U12_shadow.png"
+          highlight="2dscenes/edges/U12_highlight.png"
+          mask="2dscenes/edges/U12_mask.png"
+          price="20" swatchFile="2dscenes/edges/U12_icon.png" swatchName="Bevel 1/4"
+        />
+        <item
+          data-id="#U13"
+          light="2dscenes/edges/U13_light.png"
+          shadow="2dscenes/edges/U13_shadow.png"
+          highlight="2dscenes/edges/U13_highlight.png"
+          mask="2dscenes/edges/U13_mask.png"
+          price="20" swatchFile="2dscenes/edges/U13_icon.png" swatchName="Radius 1/8"
+        />
+<!--
+        <item
+          data-id="#D01"
+          light="2dscenes/edges/D01_light.png"
+          shadow="2dscenes/edges/D01_shadow.png"
+          highlight="2dscenes/edges/D01_highlight.png"
+          mask="2dscenes/edges/D01_mask.png"
+          price="20" swatchFile="2dscenes/edges/D01_icon.png" swatchName="Radius Build Up"
+        />
+-->
+        <item
+          data-id="#D02"
+          light="2dscenes/edges/D02_light.png"
+          shadow="2dscenes/edges/D02_shadow.png"
+          highlight="2dscenes/edges/D02_highlight.png"
+          mask="2dscenes/edges/D02_mask.png"
+          price="20" swatchFile="2dscenes/edges/D02_icon.png" swatchName="Double Radius Build Up"
+        />
+<!--
+        <item
+          data-id="#D04"
+          light="2dscenes/edges/D04_light.png"
+          shadow="2dscenes/edges/D04_shadow.png"
+          highlight="2dscenes/edges/D04_highlight.png"
+          mask="2dscenes/edges/D04_mask.png"
+          price="20" swatchFile="2dscenes/edges/D04_icon.png" swatchName="Double Half Bullnose Build Up"
+        />
+-->
+        <item
+          data-id="#L02"
+          light="2dscenes/edges/L02_light.png"
+          shadow="2dscenes/edges/L02_shadow.png"
+          highlight="2dscenes/edges/L02_highlight.png"
+          mask="2dscenes/edges/L02_mask.png"
+          price="20" swatchFile="2dscenes/edges/L02_icon.png" swatchName="Square Over Recessed Square"
+        />
+        <item
+          data-id="#L04"
+          light="2dscenes/edges/L04_light.png"
+          shadow="2dscenes/edges/L04_shadow.png"
+          highlight="2dscenes/edges/L04_highlight.png"
+          mask="2dscenes/edges/L04_mask.png"
+          price="20" swatchFile="2dscenes/edges/L04_icon.png" swatchName="Double Square"
+        />
+        <item
+          data-id="#L07"
+          light="2dscenes/edges/L07_light.png"
+          shadow="2dscenes/edges/L07_shadow.png"
+          highlight="2dscenes/edges/L07_highlight.png"
+          mask="2dscenes/edges/L07_mask.png"
+          price="20" swatchFile="2dscenes/edges/L07_icon.png" swatchName="Radius Over Radius"
+        />
+        <item
+          data-id="#L13"
+          light="2dscenes/edges/L13_light.png"
+          shadow="2dscenes/edges/L13_shadow.png"
+          highlight="2dscenes/edges/L13_highlight.png"
+          mask="2dscenes/edges/L13_mask.png"
+          price="20" swatchFile="2dscenes/edges/L13_icon.png" swatchName="Bevel Over Square"
+        />
+        <item
+          data-id="#L18"
+          light="2dscenes/edges/L18_light.png"
+          shadow="2dscenes/edges/L18_shadow.png"
+          highlight="2dscenes/edges/L18_highlight.png"
+          mask="2dscenes/edges/L18_mask.png"
+          price="20" swatchFile="2dscenes/edges/L18_icon.png" swatchName="Ogee Over Full Bullnose"
+        />
+<!--
+        <item
+          data-id="#L21"
+          light="2dscenes/edges/L21_light.png"
+          shadow="2dscenes/edges/L21_shadow.png"
+          highlight="2dscenes/edges/L21_highlight.png"
+          mask="2dscenes/edges/L21_mask.png"
+          price="20" swatchFile="2dscenes/edges/L21_icon.png" swatchName="Ogee Over Square"
+        />
+-->
+        <item
+          data-id="#L23"
+          light="2dscenes/edges/L23_light.png"
+          shadow="2dscenes/edges/L23_shadow.png"
+          highlight="2dscenes/edges/L23_highlight.png"
+          mask="2dscenes/edges/L23_mask.png"
+          price="20" swatchFile="2dscenes/edges/L23_icon.png" swatchName="Ogee Over Radius"
+        />
+        <item
+          data-id="#L24"
+          light="2dscenes/edges/L24_light.png"
+          shadow="2dscenes/edges/L24_shadow.png"
+          highlight="2dscenes/edges/L24_highlight.png"
+          mask="2dscenes/edges/L24_mask.png"
+          price="20" swatchFile="2dscenes/edges/L24_icon.png" swatchName="Dupont Over Square"
+        />
+        <item
+          data-id="#P02"
+          light="2dscenes/edges/P02_light.png"
+          shadow="2dscenes/edges/P02_shadow.png"
+          highlight="2dscenes/edges/P02_highlight.png"
+          mask="2dscenes/edges/P02_mask.png"
+          price="20" swatchFile="2dscenes/edges/P02_icon.png" swatchName="Dupont"
+        />
+        <item
+          data-id="#P04"
+          light="2dscenes/edges/P04_light.png"
+          shadow="2dscenes/edges/P04_shadow.png"
+          highlight="2dscenes/edges/P04_highlight.png"
+          mask="2dscenes/edges/P04_mask.png"
+          price="20" swatchFile="2dscenes/edges/P04_icon.png" swatchName="Cove-Dupont"
+        />
+        <item
+          data-id="#P05"
+          light="2dscenes/edges/P05_light.png"
+          shadow="2dscenes/edges/P05_shadow.png"
+          highlight="2dscenes/edges/P05_highlight.png"
+          mask="2dscenes/edges/P05_mask.png"
+          price="20" swatchFile="2dscenes/edges/P05_icon.png" swatchName="Ogee Bullnose"
+        />
+        <item
+          data-id="#P09"
+          light="2dscenes/edges/P09_light.png"
+          shadow="2dscenes/edges/P09_shadow.png"
+          highlight="2dscenes/edges/P09_highlight.png"
+          mask="2dscenes/edges/P09_mask.png"
+          price="20" swatchFile="2dscenes/edges/P09_icon.png" swatchName="Cove"
+        />
+        <item
+          data-id="#U03"
+          light="2dscenes/edges/U03_light.png"
+          shadow="2dscenes/edges/U03_shadow.png"
+          highlight="2dscenes/edges/U03_highlight.png"
+          mask="2dscenes/edges/U03_mask.png"
+          price="20" swatchFile="2dscenes/edges/U03_icon.png" swatchName="Bevel 1/8"
+        />
+        <item
+          data-id="#U06"
+          light="2dscenes/edges/U06_light.png"
+          shadow="2dscenes/edges/U06_shadow.png"
+          highlight="2dscenes/edges/U06_highlight.png"
+          mask="2dscenes/edges/U06_mask.png"
+          price="20" swatchFile="2dscenes/edges/U06_icon.png" swatchName="Bevel 3/8"
+        />
+        <item
+          data-id="#U10"
+          light="2dscenes/edges/U10_light.png"
+          shadow="2dscenes/edges/U10_shadow.png"
+          highlight="2dscenes/edges/U10_highlight.png"
+          mask="2dscenes/edges/U10_mask.png"
+          price="20" swatchFile="2dscenes/edges/U10_icon.png" swatchName="Bevel 3/4"
+        />
+        <item
+          data-id="#U11"
+          light="2dscenes/edges/U11_light.png"
+          shadow="2dscenes/edges/U11_shadow.png"
+          highlight="2dscenes/edges/U11_highlight.png"
+          mask="2dscenes/edges/U11_mask.png"
+          price="20" swatchFile="2dscenes/edges/U11_icon.png" swatchName="Pencil"
+        />
+
+      </folder>
+    </folders>
+  </room>
+</rooms>

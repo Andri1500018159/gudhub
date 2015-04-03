@@ -1850,7 +1850,23 @@ span.dived-line {
 .footer-bottom .top-tel a {
     opacity: 0.6;
 }
+.footer-bottom .terms {
+    padding-left:14%;
 
+}
+.footer-bottom .terms a {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 25px 0 0 25px;
+  float: left;
+  color: #c2c2c2;
+  transition: .5s all;
+    text-decoration: none;
+}
+
+.footer-bottom .terms a:hover{
+     color: #29c5f2;
+}
 .footer-bottom .top-tel a:hover {
     opacity: 0.8;
 }
@@ -1862,6 +1878,7 @@ span.dived-line {
 .footer-img a:hover {
     opacity: 0.7;
 }
+
 
 .credit-card {
     margin-top: 24px;
