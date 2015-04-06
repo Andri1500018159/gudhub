@@ -1023,11 +1023,12 @@ span.circles-text {
     bottom: 0;
     left: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.1em;
     padding-top: 5px;
+    color:#fff;
 }
 .portfolio-item:hover .descr{
-    color:#fff;
+
     background-color: rgba(0,0,0,1);
 }
 .portfolio-item .portfolio-image {
@@ -1706,12 +1707,19 @@ span.dived-line {
     background: #01212e;
     padding: 25px 0;
 }
+.footer-bottom .copyright {
+    font-size:12px;
+    color:#c2c2c2;
+    text-align: center;
+    padding-top:10px;
+    font-weight: 300;
+}
 
 .footer-grids p {
     color: #929292;
     font-size: 14px;
     margin-top: 5px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 22px;
 }
 
@@ -1800,7 +1808,7 @@ span.dived-line {
     display: block;
     padding: 5px 0;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
     color: #929292;
 }
 
@@ -1841,7 +1849,7 @@ span.dived-line {
     color: #c2c2c2;
     font-size: 14px;
     font-weight: 100;
-    font-style: italic;
+
     margin: 25px 0 0 25px;
     float: left;
 }
