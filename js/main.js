@@ -12,7 +12,6 @@ angular.module('myapp', [ "ngRoute",
           value.active = false;
         });
     }
-
 	$scope.main_menu = [
 			{
                  name: "Home",
