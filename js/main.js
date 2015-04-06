@@ -1,6 +1,7 @@
 angular.module('myapp', [ "ngRoute",
                           "ui.bootstrap",
-                          "storageMod"
+                          "storageMod",
+                          "contactForm"
                                 ])
 
 //--------------------- MAIN CONTROLLER --------------------//

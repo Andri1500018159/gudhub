@@ -3,7 +3,7 @@
 </div>
 <div class="contact-section" id="contact">
     <div class="container">
-        <div class="contact-form-bottom">
+        <div ng-controller="ContactController" class="contact-form-bottom">
             <div class="col-md-3 address">
                 <address>
                     <h5>Address:</h5>
@@ -15,20 +15,20 @@
                     <p>(847)640-7220</p>
                 </address>
             </div>
-            <form>
-                <div class="col-md-4 contact-form">
-                    <div class="contact-form-row">
+            <form ng-submit="submit(contactform)" name="contactform" method="post" action="" role="form">
+                <div class="col-md-4 contact-form"  ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+                    <div class="contact-form-row" ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
                         <div>
                             <span>Name</span>
-                            <input type="text" class="text" value="" />
+                            <input ng-model="formData.inputName" type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name" required/>
                         </div>
                         <div>
                             <span>Email</span>
-                            <input type="text" class="text" value="" />
+                            <input ng-model="formData.inputEmail" type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email" required type="text" class="text" />
                         </div>
                         <div>
                             <span>phone</span>
-                            <input type="text" class="text" value="" />
+                            <input  ng-model="formData.inputSubject" type="phone" class="form-control" id="inputSubject" name="inputSubject" placeholder="Yor Phone" required type="text" class="text"   />
                         </div>
                         <br/>
                     </div>
@@ -36,8 +36,8 @@
                 <div class="col-md-4 contact-form-row comments">
                     <div>
                         <span>Comments</span>
-                        <textarea value=""></textarea>
-                        <input type="submit" value="Submit" />
+                        <textarea ng-model="formData.inputMessage" class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..." required> value=""></textarea>
+                        <input  ng-disabled="submitButtonDisabled" type="submit" value="Submit" />
                     </div>
                 </div>
             </form>
