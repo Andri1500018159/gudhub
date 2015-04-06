@@ -27,6 +27,7 @@ function initFancyBox() {
         openSpeed: 600,
         closeEffect: 'fade',
         closeSpeed: 300,
+        arrows : true
     });
 }
 
