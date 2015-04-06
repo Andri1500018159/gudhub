@@ -1027,8 +1027,8 @@ span.circles-text {
     padding-top: 5px;
 }
 .portfolio-item:hover .descr{
+    color:#fff;
     background-color: rgba(0,0,0,1);
-
 }
 .portfolio-item .portfolio-image {
     overflow: hidden;
