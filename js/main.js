@@ -4,8 +4,7 @@ angular.module('myapp', [ "ngRoute",
                           "contactForm"
                                 ])
 
-//--------------------- MAIN CONTROLLER --------------------//
-.controller('MainCtrl', function( $scope, storage ) {
+ .controller('MainCtrl', function( $scope, storage ) {
     'use strict';
 
     $scope.init_menu = function(){
@@ -109,9 +108,6 @@ angular.module('myapp', [ "ngRoute",
     $scope.marble = storage.getGallery( 6, "marble");
 
 })
-
-
-//---------------- ROUTING CONFIGURATION -------------------//
 .config(function($routeProvider, $locationProvider) {
 	  $routeProvider
 		  .when('/', {
@@ -156,7 +152,11 @@ angular.module('myapp', [ "ngRoute",
 		  .otherwise({
 			  redirectTo: '/'
 		  });
+	})
 
-	  // configure html5 to get links working on jsfiddle
-	  //$locationProvider.html5Mode(true);
-	});
+
+.directive("contactForm", function() {
+    return {
+        templateUrl:'page/contact-form.html'
+    };
+});
