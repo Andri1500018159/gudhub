@@ -149,7 +149,155 @@ var pruductList = [
             image : './images/marble/TurkishEmperador_Sample.jpg',
             href: './images/marble/TurkishEmperador_Slab.jpg',
             type:"marble"
-        }
+        },
+//    QUARTZITE
+       {
+			title: "Cezanne",
+            image : './images/quartzite/Cezanne_Sample.jpg',
+            href: './images/quartzite/Cezanne_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Copper Dune",
+            image : './images/quartzite/CopperDune_Sample.jpg',
+            href: './images/quartzite/CopperDune_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Emerald",
+            image : './images/quartzite/Emerald_Sample.jpg',
+            href: './images/quartzite/Emerald_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Fusion",
+            image : './images/quartzite/Fusion_Sample.jpg',
+            href: './images/quartzite/Fusion_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Luisa Blue",
+            image : './images/quartzite/LuisaBlue_Sample.jpg',
+            href: './images/quartzite/LuisaBlue_Slab.jpg',
+            type:"quartzite"
+        },
+		{
+			title: "Lumix",
+            image : './images/quartzite/Lumix_Sample.jpg',
+            href: './images/quartzite/Lumix_Slab.jpg',
+            type:"quartzite"
+        },
+		{
+			title: "Moonlight",
+            image : './images/quartzite/Moonlight_Sample.jpg',
+            href: './images/quartzite/Moonlight_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Petrified Wood",
+            image : './images/quartzite/PetrifiedWood_Sample.jpg',
+            href: './images/quartzite/PetrifiedWood_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Prada",
+            image : './images/quartzite/Prada_Sample.jpg',
+            href: './images/quartzite/Prada_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Taj Mahal",
+            image : './images/quartzite/TajMahal_Sample.jpg',
+            href: './images/quartzite/TajMahal_Slab.jpg',
+            type:"quartzite"
+        },
+         {
+			title: "Vogue",
+            image : './images/quartzite/Vogue_Sample.jpg',
+            href: './images/quartzite/Vogue_Slab.jpg',
+            type:"quartzite"
+
+        },
+		{
+			title: "Yellow Bamboo",
+            image : './images/quartzite/YellowBamboo_Sample.jpg',
+            href: './images/quartzite/YellowBamboo_Slab.jpg',
+            type:"quartzite"
+        },
+//    LIMESTONE/travertine
+       {
+			title: "Jerusalem Gold",
+            image : './images/limestone/limestone/JerusalemGold_Sample.jpg',
+            href: './images/limestone/limestone/JerusalemGold_Slab.jpg',
+            type:"limestonetravertine"
+        },
+         {
+			title: "Lagos Blue",
+            image : './images/limestone/limestone/LagosBlue_Sample.jpg',
+            href: './images/limestone/limestone/LagosBlue_Slab.jpg',
+            type:"limestonetravertine"
+        },
+         {
+			title: "Petit Granit",
+            image : './images/limestone/limestone/PetitGranit_Sample.jpg',
+            href: './images/limestone/limestone/PetitGranit_Slab.jpg',
+            type:"limestonetravertine"
+        },
+         {
+			title: "Ramon Gold",
+            image : './images/limestone/limestone/RamonGold_Sample.png',
+            href: './images/limestone/limestone/RamonGold_Slab.jpg',
+            type:"limestonetravertine"
+        },
+         {
+			title: "Sea Grass",
+            image : './images/limestone/limestone/SeaGrass_Sample.jpg',
+            href: './images/limestone/limestone/SeaGrass_Slab.jpg',
+            type:"limestonetravertine"
+        },
+		{
+			title: "Sophia",
+            image : './images/limestone/limestone/Sophia_Sample.jpg',
+            href: './images/limestone/limestone/Sophia_Slab.jpg',
+            type:"limestonetravertine"
+        },
+//    travertine
+		{
+			title: "Durango",
+            image : './images/limestone/travertine/DurangoTravertine_Sample.jpg',
+            href: './images/limestone/travertine/DurangoTravertine_Slab.jpg',
+            type:"limestonetravertine"
+        },
+		{
+			title: "Parthenon Gold",
+            image : './images/limestone/travertine/ParthenonGoldTravertine_Sample.jpg',
+            href: './images/limestone/travertine/ParthenonGoldTravertine_Slab.jpg',
+            type:"limestonetravertine"
+        },
+		{
+			title: "Persian White",
+            image : './images/limestone/travertine/PersianWhiteTravertine_Sample.jpg',
+            href: './images/limestone/travertine/PersianWhiteTravertine_Slab.jpg',
+            type:"limestonetravertine"
+        },
+		{
+			title: "Red Travertine",
+            image : './images/limestone/travertine/RedTravertine_Sample.jpg',
+            href: './images/limestone/travertine/RedTravertine_Slab.jpg',
+            type:"limestonetravertine"
+        },
+		{
+			title: "Roman Travertine",
+            image : './images/limestone/travertine/RomanTravertine_Sample.jpg',
+            href: './images/limestone/travertine/RomanTravertine_Slab.jpg',
+            type:"limestonetravertine"
+        },
+		{
+			title: "Silver Travertine",
+            image : './images/limestone/travertine/SilverTravertine_Sample.jpg',
+            href: './images/limestone/travertine/SilverTravertine_Slab.jpg',
+            type:"limestonetravertine"
+        },
     ]
 
 var sliders= [

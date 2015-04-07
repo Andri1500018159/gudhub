@@ -105,7 +105,8 @@ angular.module('myapp', [ "ngRoute",
     $scope.suppliers = storage.getSliders("suppliers");
     $scope.granite = storage.getGallery( 6, "granite");
     $scope.marble = storage.getGallery( 6, "marble");
-
+    $scope.quartzite = storage.getGallery( 6, "quartzite");
+    $scope.limestonetravertine = storage.getGallery( 6, "limestonetravertine");
 })
 .config(function($routeProvider, $locationProvider) {
 	  $routeProvider
