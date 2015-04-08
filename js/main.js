@@ -109,6 +109,7 @@ angular.module('myapp', [ "ngRoute",
     $scope.onyx = storage.getGallery( 6, "onyx");
     $scope.engineered = storage.getGallery( 6, "engineered");
     $scope.limestonetravertine = storage.getGallery( 6, "limestonetravertine");
+    $scope.natural = storage.getGallery( 6, "natural");
 })
 .config(function($routeProvider, $locationProvider) {
 	  $routeProvider

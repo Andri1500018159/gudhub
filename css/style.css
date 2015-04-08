@@ -630,15 +630,50 @@ p {
     padding-top: 10px;
 }
 /***suppliers-wrap***/
-
-.suppliers-wrap {
+.suppliers h3 {
     text-align: center;
-    padding: 7px 0 0;
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: none;
+}
+.sec-suppliers{
+    padding-top:40px;
 }
 
-.suppliers-wrap img {
-    margin: 0 25px;
+.suppliers h2 {
+    font-family: 'roboto';
+    font-size: 42px;
+    font-weight: 200;
 }
+.wrapper-suppliers a {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrapper-suppliers a:hover {
+    color: #026792;
+    text-decoration: none;
+}
+
+.wrapper-suppliers span {
+    display: block;
+}
+
+.wrapper-suppliers > div {
+    margin-bottom: 15px;
+}
+
+
+.suppliers .item {
+    text-align: center;
+    overflow: hidden;
+}
+
+.suppliers .wrapper-suppliers .item-image {
+    height: 150px;
+    width: 150px;
+}
+
 /**wrapper-product***/
 
 .wrapper-product a {

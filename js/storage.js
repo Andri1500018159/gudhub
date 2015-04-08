@@ -444,7 +444,68 @@ var pruductList = [
             href: 'http://www.silestoneusa.com/colors/',
             type:"engineered"
         },
+//    natural
+        {
+            image : './images/natural/1.jpg',
+            href: 'http://products.daltile.com/onequartz.cfm',
+            type:"natural"
+        },
+         {
+            image : './images/natural/2.jpg',
+            href: 'http://parksite.myeshowroom.com/search?dealer=23154&manufacturer=7453&brand=0&category=0&option=0',
+            type:"natural"
+        },
+         {
+            image : './images/natural/3.jpg',
+            href: 'http://www.marmostone.net/#!kalingastoneslabs/cww',
+            type:"natural"
+        },
+         {
+            image : './images/natural/4.jpg',
+            href: 'http://asdusa.com/samsungradianz/',
+            type:"natural"
+        },
+         {
+            image : './images/natural/5.jpg',
+            href: 'http://www.msistone.com/quartzcountertops/',
+            type:"natural"
+        },
+		{
+            image : './images/natural/6.jpg',
+            href: 'http://www.marblegranites.com/products/technoquartz/alltechnoquartz.aspx?g=125',
+            type:"natural"
+        },
+		{
+            image : './images/natural/7.jpg',
+            href: 'http://www.stonedesign.com/gallery/44/',
+            type:"natural"
+        },
+         {
+            image : './images/natural/8.JPG',
+            href: 'http://www.lgviaterausa.com/productOverviews/83/byproductline',
+            type:"natural"
+        },
+         {
+            image : './images/natural/9.JPG',
+            href: 'http://www.stalwartsystemsusa.com/projects/225027/HanStoneQuartz',
+            type:"natural"
+        },
+         {
+            image : './images/natural/10.jpg',
+            href: 'http://www.direscousa.com/#!colors/c1gt7',
+            type:"natural"
+        },
+         {
+            image : './images/natural/11.jpg',
+            href: 'http://www.universalgranite.com/browse?material=Quartz',
+            type:"natural"
 
+        },
+		{
+            image : './images/natural/12.jpg',
+            href: 'http://www.caesarstoneus.com/en/TheCatalog/Pages/ByColor.aspx',
+            type:"natural"
+        },
     ]
 
 var sliders= [
