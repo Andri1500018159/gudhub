@@ -54,7 +54,7 @@ angular.module('myapp', [ "ngRoute",
 								 active: false
                              },
                              {
-                                 name: "Engineering Stone/Quartz",
+                                 name: "Engineered Stone/Quartz",
                                  href: "#/engineering-stone-quartz",
 								 active: false
                              }
@@ -106,6 +106,8 @@ angular.module('myapp', [ "ngRoute",
     $scope.granite = storage.getGallery( 6, "granite");
     $scope.marble = storage.getGallery( 6, "marble");
     $scope.quartzite = storage.getGallery( 6, "quartzite");
+    $scope.onyx = storage.getGallery( 6, "onyx");
+    $scope.engineered = storage.getGallery( 6, "engineered");
     $scope.limestonetravertine = storage.getGallery( 6, "limestonetravertine");
 })
 .config(function($routeProvider, $locationProvider) {
@@ -148,6 +150,9 @@ angular.module('myapp', [ "ngRoute",
 		  })
 		  .when('/requestquote', {
 			  templateUrl: '/page/requestquote.html'
+		  })
+		  .when('/suppliers', {
+			  templateUrl: '/page/suppliers.html'
 		  })
 		  .otherwise({
 			  redirectTo: '/'

@@ -224,6 +224,80 @@ var pruductList = [
             href: './images/quartzite/YellowBamboo_Slab.jpg',
             type:"quartzite"
         },
+//    ONYX
+       {
+			title: "Amber",
+            image : './images/onyx/AmberOnyx_Sample.jpg',
+            href: './images/onyx/AmberOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Capuccino",
+            image : './images/onyx/CappuccinoOnyx_Sample.jpg',
+            href: './images/onyx/CappuccinoOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Fantasy",
+            image : './images/onyx/FantasyOnyx_Sample.jpg',
+            href: './images/onyx/FantasyOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Fire",
+            image : './images/onyx/FireOnyx_Sample.jpg',
+            href: './images/onyx/FireOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Gray",
+            image : './images/onyx/GrayOnyx_Sample.jpg',
+            href: './images/onyx/GrayOnyx_Slab.jpg',
+            type:"onyx"
+        },
+		{
+			title: "Green",
+            image : './images/onyx/GreenOnyx_Sample.jpg',
+            href: './images/onyx/GreenOnyx_slab.jpg',
+            type:"onyx"
+        },
+		{
+			title: "Honey",
+            image : './images/onyx/HoneyOnyx_Sample.jpg',
+            href: './images/onyx/HoneyOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Pink",
+            image : './images/onyx/PinkOnyx_Sample.jpg',
+            href: './images/onyx/PinkOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Smeraldo",
+            image : './images/onyx/SmeraldoOnyx_Sample.jpg',
+            href: './images/onyx/SmeraldoOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Velluto",
+            image : './images/onyx/VellutoOnyx_Sample.jpg',
+            href: './images/onyx/VellutoOnyx_Slab.jpg',
+            type:"onyx"
+        },
+         {
+			title: "Volcano",
+            image : './images/onyx/VolcanoOnyx_Sample.jpg',
+            href: './images/onyx/VolcanoOnyx_Slab.jpg',
+            type:"onyx"
+
+        },
+		{
+			title: "White",
+            image : './images/onyx/WhiteOnyx_Sample.jpg',
+            href: './images/onyx/WhiteOnyx_Slab.jpg',
+            type:"onyx"
+        },
 //    LIMESTONE/travertine
        {
 			title: "Jerusalem Gold",
@@ -298,6 +372,79 @@ var pruductList = [
             href: './images/limestone/travertine/SilverTravertine_Slab.jpg',
             type:"limestonetravertine"
         },
+//    engineered
+       {
+            image : './images/engineered/1.jpg',
+            href: 'http://products.daltile.com/onequartz.cfm',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/2.jpg',
+            href: 'http://parksite.myeshowroom.com/search?dealer=23154&manufacturer=7453&brand=0&category=0&option=0',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/3.jpg',
+            href: 'http://www.marmostone.net/#!kalingastoneslabs/cww',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/4.jpg',
+            href: 'http://asdusa.com/samsungradianz/',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/5.jpg',
+            href: 'http://www.msistone.com/quartzcountertops/',
+            type:"engineered"
+        },
+		{
+            image : './images/engineered/6.jpg',
+            href: 'http://www.marblegranites.com/products/technoquartz/alltechnoquartz.aspx?g=125',
+            type:"engineered"
+        },
+		{
+            image : './images/engineered/7.jpg',
+            href: 'http://www.stonedesign.com/gallery/44/',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/8.JPG',
+            href: 'http://www.lgviaterausa.com/productOverviews/83/byproductline',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/9.JPG',
+            href: 'http://www.stalwartsystemsusa.com/projects/225027/HanStoneQuartz',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/10.jpg',
+            href: 'http://www.direscousa.com/#!colors/c1gt7',
+            type:"engineered"
+        },
+         {
+            image : './images/engineered/11.jpg',
+            href: 'http://www.universalgranite.com/browse?material=Quartz',
+            type:"engineered"
+
+        },
+		{
+            image : './images/engineered/12.jpg',
+            href: 'http://www.caesarstoneus.com/en/TheCatalog/Pages/ByColor.aspx',
+            type:"engineered"
+        },
+		{
+            image : './images/engineered/13.jpg',
+            href: 'http://www.tmsupply.com/products/naturalstoneproducts.aspx?filter=difiniti',
+            type:"engineered"
+        },
+		{
+            image : './images/engineered/14.jpg',
+            href: 'http://www.silestoneusa.com/colors/',
+            type:"engineered"
+        },
+
     ]
 
 var sliders= [
