@@ -155,6 +155,9 @@ angular.module('myapp', [ "ngRoute",
 		  .when('/suppliers', {
 			  templateUrl: '/page/suppliers.html'
 		  })
+		  .when('/about-us', {
+			  templateUrl: '/page/about.html'
+		  })
 		  .otherwise({
 			  redirectTo: '/'
 		  });

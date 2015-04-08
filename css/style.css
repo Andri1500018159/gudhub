@@ -732,24 +732,16 @@ a:active {
 }
 
 .about {
-    text-align: center;
-    padding: 5em 0;
-    position: relative;
+
 }
 
 .about h3 {
-    color: #7b6c63;
-    margin: 0 0 1.5em 0;
-    font-size: 3em;
-    font-weight: 600;
+
 }
 
 .about p {
-    color: #212121;
-    font-weight: 400;
+    line-height: 35px;
     font-size: 18px;
-    width: 40%;
-    margin: 0 auto;
 }
 
 .about span {
@@ -768,42 +760,6 @@ a:active {
     transform: translateY(-10px);
 }
 
-.about-bottom {
-    background: #f5f5f5;
-}
-
-.about-bottom-left:nth-child(1) {
-    padding: 7.6em 0 7.9em 6em;
-}
-
-.about-bottom-right:nth-child(2) {
-    padding-right: 0;
-}
-
-.about-bottom-left h4 {
-    margin: 0;
-    font-size: 26px;
-    font-weight: 600;
-    color: #7b6c63;
-    letter-spacing: 1px;
-}
-
-.about-bottom-left p {
-    color: #000;
-    font-size: 16px;
-    margin: 0;
-    font-weight: 400;
-    line-height: 1.8em;
-    letter-spacing: .5px;
-}
-
-.about-bottom-left p.top {
-    margin: 1.5em 0;
-}
-
-.about-bottom-right img {
-    width: 100%;
-}
 
 .read-more {
     padding-top: 3em;
