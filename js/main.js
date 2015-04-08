@@ -66,7 +66,7 @@ angular.module('myapp', [ "ngRoute",
 				 active: false,
                  submenu: [
                             {
-                                name: "kitchen visualizer",
+                                name: "project visualizer",
                                 href: "#/kitchen",
 								active: false
                              },
