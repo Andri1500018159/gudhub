@@ -2044,10 +2044,7 @@ span.dived-line {
     .about span {
         top: 50%;
     }
-    .about p {
-        font-size: 16px;
-        width: 44%;
-    }
+
     .about-bottom-left h4 {
         font-size: 24px;
     }
@@ -2173,6 +2170,9 @@ span.dived-line {
         background: url(../images/banner.jpg) no-repeat 0px 0px;
         background-size: cover;
     }
+     .separator{
+        width:45rem;
+    }
     .header-logo {
         width: 25%;
         margin-left: 1em;
@@ -2180,6 +2180,9 @@ span.dived-line {
     .top-nav {
         width: 30%;
         margin: 0 2em 0 0;
+    }
+    .top-tel{
+        display: none;
     }
     .banner-title {
         margin: 7em 0 10em 1em;
@@ -2242,10 +2245,7 @@ span.dived-line {
     .about h3 {
         font-size: 2.2em;
     }
-    .about p {
-        font-size: 15px;
-        width: 51%;
-    }
+
     .about-bottom-left h4 {
         font-size: 23px;
     }
@@ -2403,6 +2403,17 @@ span.dived-line {
     .top-nav ul.nav1 {
         top: 9.5%;
     }
+    .address {
+        float: none;
+        width: 100%;
+        margin-top:20px;
+    }
+     .separator{
+        width:35rem;
+    }
+    .top-tel{
+        display:none;
+    }
     .top-nav ul li a {
         font-size: 15px;
     }
@@ -2419,9 +2430,7 @@ span.dived-line {
     .about h3 {
         font-size: 2em;
     }
-    .about p {
-        width: 65%;
-    }
+
     .about-bottom-left h4 {
         font-size: 20px;
     }
@@ -2535,7 +2544,10 @@ span.dived-line {
         height: 100px;
     }
     .footer-logo img {
-        width: 52%;
+        width: 32%;
+    }
+     .footer-logo {
+        text-align:center;
     }
 }
 
@@ -2543,8 +2555,19 @@ span.dived-line {
     .top-nav ul.nav1 {
         top: 10%;
     }
+    .address {
+        float: none;
+        width: 100%;
+        margin-top:20px;
+    }
     .header-logo {
         width: 28%;
+    }
+    .top-tel{
+        display:none;
+    }
+    .separator{
+        width:25rem;
     }
     .banner-title h5 {
         font-size: 1em;
@@ -2561,9 +2584,7 @@ span.dived-line {
     .about h3 {
         font-size: 1.5em;
     }
-    .about p {
-        width: 83%;
-    }
+
     .about-bottom-left h4 {
         font-size: 18px;
     }
@@ -2721,6 +2742,9 @@ span.dived-line {
         height: 50px;
         margin: 0;
     }
+     .footer-logo {
+        text-align:center;
+    }
     .recent-posts:nth-child(3) {
         padding: 3em 1em 0 0;
     }
@@ -2734,13 +2758,20 @@ span.dived-line {
 @media(max-width:320px) {
     .header {
         padding: 1em 0;
+
     }
     .header-logo {
         width: 42%;
         margin: 4px 0 0 0;
     }
+    .separator{
+        width:15rem;
+    }
     .top-nav {
         margin: 0 5px 0 0;
+    }
+    .top-tel{
+        display:none;
     }
     .banner-title {
         margin: 4em 0 5em 0em;
@@ -2770,10 +2801,7 @@ span.dived-line {
     .about h3 {
         font-size: 1.4em;
     }
-    .about p {
-        width: 100%;
-        font-size: 14px;
-    }
+
     .col-md-6:nth-child(1),
     .col-md-6:nth-child(2) {
         padding: 0 10px;
@@ -2933,8 +2961,7 @@ span.dived-line {
         padding: 3em 0 2em 0;
     }
     .footer-logo {
-        float: none;
-        width: 100%;
+        text-align:center;
     }
     .recent-posts {
         float: none;
@@ -2946,6 +2973,7 @@ span.dived-line {
     .address {
         float: none;
         width: 100%;
+        margin-top:20px;
     }
     .address:nth-child(4) {
         padding: 3em 0 0 0em;
