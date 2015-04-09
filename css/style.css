@@ -92,8 +92,6 @@ video {
 * {
     -webkit-font-smoothing: antialiased;
     /*solving text Flickering issue in Chrome and Safari on iMacs*/
-
-
 }
 /* HTML5 display-role reset for older browsers */
 
@@ -198,6 +196,23 @@ strong {
     color: #fff;
     text-shadow: none;
     background: #026792;
+}
+
+.selection h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: none;
+}
+
+.selection h2 {
+    font-family: 'roboto';
+    font-size: 42px;
+    font-weight: 200;
+}
+
+.selection h5 {
+    font-size: px;
 }
 
 *,
@@ -534,7 +549,7 @@ body {
 .service h5 {
     font-size: 24px;
     line-height: 25px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .service h2 {
@@ -630,25 +645,28 @@ p {
     padding-top: 10px;
 }
 /***suppliers-wrap***/
+
 .suppliers h3 {
     text-align: center;
     font-size: 24px;
     font-weight: 200;
     text-transform: none;
 }
-.sec-suppliers{
 
-}
+.sec-suppliers {}
+
 .suppliers .item:hover {
     -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 95, 135, 0.9);
     -moz-box-shadow: 0px 0px 17px 0px rgba(0, 95, 135, 0.9);
     box-shadow: 0px 0px 17px 0px rgba(0, 95, 135, 0.9);
 }
+
 .suppliers h2 {
     font-family: 'roboto';
     font-size: 42px;
     font-weight: 200;
 }
+
 .wrapper-suppliers a {
     text-align: center;
     font-weight: bold;
@@ -667,7 +685,6 @@ p {
     margin-bottom: 15px;
 }
 
-
 .suppliers .item {
     text-align: center;
     overflow: hidden;
@@ -677,7 +694,6 @@ p {
     height: 150px;
     width: 150px;
 }
-
 /**wrapper-product***/
 
 .wrapper-product a {
@@ -731,13 +747,9 @@ a:active {
     transition: .5s all;
 }
 
-.about {
+.about {}
 
-}
-
-.about h3 {
-
-}
+.about h3 {}
 
 .about p {
     line-height: 35px;
@@ -759,7 +771,6 @@ a:active {
     -moz-transform: translateY(-10px);
     transform: translateY(-10px);
 }
-
 
 .read-more {
     padding-top: 3em;
@@ -951,6 +962,7 @@ span.circles-text {
     font-size: 42px;
     font-weight: 200;
 }
+
 .separator {
     width: 70rem;
     border-bottom: 1px solid #999;
@@ -1010,22 +1022,24 @@ span.circles-text {
     position: relative;
     padding-top: 2rem;
 }
-.portfolio-item  .descr{
+
+.portfolio-item .descr {
     position: absolute;
     height: 30px;
-    width:100%;
-    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
     bottom: 0;
     left: 0;
     text-align: center;
     font-size: 1.1em;
     padding-top: 5px;
-    color:#fff;
+    color: #fff;
 }
-.portfolio-item:hover .descr{
 
-    background-color: rgba(0,0,0,1);
+.portfolio-item:hover .descr {
+    background-color: rgba(0, 0, 0, 1);
 }
+
 .portfolio-item .portfolio-image {
     overflow: hidden;
     display: block;
@@ -1041,19 +1055,21 @@ span.circles-text {
 .portfolio-nav {
     padding-top: 50px;
 }
-
 /*kitchen*/
-.tools{
-    margin-top: 96px;
-    padding-bottom:0;
-}
-.tools3{
-    margin-top: 119px;
 
+.tools {
+    margin-top: 96px;
+    padding-bottom: 0;
 }
-#2DShowRoom{
-    margin:0 auto;
+
+.tools3 {
+    margin-top: 119px;
 }
+
+#2DShowRoom {
+    margin: 0 auto;
+}
+
 .tools h3 {
     text-align: center;
     font-size: 24px;
@@ -1702,11 +1718,12 @@ span.dived-line {
     background: #01212e;
     padding: 25px 0;
 }
+
 .footer-bottom .copyright {
-    font-size:12px;
-    color:#c2c2c2;
+    font-size: 12px;
+    color: #c2c2c2;
     text-align: center;
-    padding-top:10px;
+    padding-top: 10px;
     font-weight: 300;
 }
 
@@ -1844,7 +1861,6 @@ span.dived-line {
     color: #c2c2c2;
     font-size: 14px;
     font-weight: 100;
-
     margin: 25px 0 0 25px;
     float: left;
 }
@@ -1866,23 +1882,25 @@ span.dived-line {
 .footer-bottom .top-tel a {
     opacity: 0.6;
 }
-.footer-bottom .terms {
-    padding-left:14%;
 
+.footer-bottom .terms {
+    padding-left: 14%;
 }
+
 .footer-bottom .terms a {
-  font-size: 14px;
-  font-weight: 100;
-  margin: 25px 0 0 25px;
-  float: left;
-  color: #c2c2c2;
-  transition: .5s all;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 25px 0 0 25px;
+    float: left;
+    color: #c2c2c2;
+    transition: .5s all;
     text-decoration: none;
 }
 
-.footer-bottom .terms a:hover{
-     color: #29c5f2;
+.footer-bottom .terms a:hover {
+    color: #29c5f2;
 }
+
 .footer-bottom .top-tel a:hover {
     opacity: 0.8;
 }
@@ -1894,7 +1912,6 @@ span.dived-line {
 .footer-img a:hover {
     opacity: 0.7;
 }
-
 
 .credit-card {
     margin-top: 24px;
@@ -2044,7 +2061,6 @@ span.dived-line {
     .about span {
         top: 50%;
     }
-
     .about-bottom-left h4 {
         font-size: 24px;
     }
@@ -2170,8 +2186,8 @@ span.dived-line {
         background: url(../images/banner.jpg) no-repeat 0px 0px;
         background-size: cover;
     }
-     .separator{
-        width:45rem;
+    .separator {
+        width: 45rem;
     }
     .header-logo {
         width: 25%;
@@ -2181,7 +2197,7 @@ span.dived-line {
         width: 30%;
         margin: 0 2em 0 0;
     }
-    .top-tel{
+    .top-tel {
         display: none;
     }
     .banner-title {
@@ -2245,7 +2261,6 @@ span.dived-line {
     .about h3 {
         font-size: 2.2em;
     }
-
     .about-bottom-left h4 {
         font-size: 23px;
     }
@@ -2406,13 +2421,13 @@ span.dived-line {
     .address {
         float: none;
         width: 100%;
-        margin-top:20px;
+        margin-top: 20px;
     }
-     .separator{
-        width:35rem;
+    .separator {
+        width: 35rem;
     }
-    .top-tel{
-        display:none;
+    .top-tel {
+        display: none;
     }
     .top-nav ul li a {
         font-size: 15px;
@@ -2430,7 +2445,6 @@ span.dived-line {
     .about h3 {
         font-size: 2em;
     }
-
     .about-bottom-left h4 {
         font-size: 20px;
     }
@@ -2546,8 +2560,8 @@ span.dived-line {
     .footer-logo img {
         width: 32%;
     }
-     .footer-logo {
-        text-align:center;
+    .footer-logo {
+        text-align: center;
     }
 }
 
@@ -2558,16 +2572,16 @@ span.dived-line {
     .address {
         float: none;
         width: 100%;
-        margin-top:20px;
+        margin-top: 20px;
     }
     .header-logo {
         width: 28%;
     }
-    .top-tel{
-        display:none;
+    .top-tel {
+        display: none;
     }
-    .separator{
-        width:25rem;
+    .separator {
+        width: 25rem;
     }
     .banner-title h5 {
         font-size: 1em;
@@ -2584,7 +2598,6 @@ span.dived-line {
     .about h3 {
         font-size: 1.5em;
     }
-
     .about-bottom-left h4 {
         font-size: 18px;
     }
@@ -2742,8 +2755,8 @@ span.dived-line {
         height: 50px;
         margin: 0;
     }
-     .footer-logo {
-        text-align:center;
+    .footer-logo {
+        text-align: center;
     }
     .recent-posts:nth-child(3) {
         padding: 3em 1em 0 0;
@@ -2758,20 +2771,19 @@ span.dived-line {
 @media(max-width:320px) {
     .header {
         padding: 1em 0;
-
     }
     .header-logo {
         width: 42%;
         margin: 4px 0 0 0;
     }
-    .separator{
-        width:15rem;
+    .separator {
+        width: 15rem;
     }
     .top-nav {
         margin: 0 5px 0 0;
     }
-    .top-tel{
-        display:none;
+    .top-tel {
+        display: none;
     }
     .banner-title {
         margin: 4em 0 5em 0em;
@@ -2801,7 +2813,6 @@ span.dived-line {
     .about h3 {
         font-size: 1.4em;
     }
-
     .col-md-6:nth-child(1),
     .col-md-6:nth-child(2) {
         padding: 0 10px;
@@ -2961,7 +2972,7 @@ span.dived-line {
         padding: 3em 0 2em 0;
     }
     .footer-logo {
-        text-align:center;
+        text-align: center;
     }
     .recent-posts {
         float: none;
@@ -2973,7 +2984,7 @@ span.dived-line {
     .address {
         float: none;
         width: 100%;
-        margin-top:20px;
+        margin-top: 20px;
     }
     .address:nth-child(4) {
         padding: 3em 0 0 0em;
@@ -2986,3 +2997,12 @@ span.dived-line {
     }
 }
 /*----//responsive-design -----*/
+
+.footer-img {
+    padding-top: 20px;
+}
+
+.sel-img img {
+    height: 200px;
+    width: 300px;
+}
