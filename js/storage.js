@@ -6,14 +6,14 @@
 var pruductList = [
         {
 			title: "Azul Aran",
-            image : './images/granite/AzulAran_Sample.jpg',
-            href: './images/granite/AzulAran_SLAB.jpg',
+            image : './images/granite/azularan_sample.jpg',
+            href: './images/granite/azularan_slab.jpg',
             type:"granite"
         },
          {
 			title: "Azul Bahia",
-            image : './images/granite/AzulBahia_sample.jpg',
-            href: './images/granite/AzulBahia_Slab.jpg',
+            image : './images/granite/azulbahia_sample.jpg',
+            href: './images/granite/azulvahia_slab.jpg',
             type:"granite"
         },
          {
