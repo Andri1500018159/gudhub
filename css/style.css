@@ -2418,6 +2418,12 @@ span.dived-line {
     .top-nav ul.nav1 {
         top: 9.5%;
     }
+    .header{
+        height:auto;
+    }
+    .top-nav{
+        margin: 2em 2em 0 0;
+    }
     .address {
         float: none;
         width: 100%;
@@ -2569,10 +2575,19 @@ span.dived-line {
     .top-nav ul.nav1 {
         top: 10%;
     }
+      .address .map {
+          display: none;
+      }
+    .header{
+        height:auto;
+    }
+    .top-nav{
+        margin: 1em 2em 0 0;
+    }
     .address {
         float: none;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .header-logo {
         width: 28%;
@@ -2771,6 +2786,7 @@ span.dived-line {
 @media(max-width:320px) {
     .header {
         padding: 1em 0;
+
     }
     .header-logo {
         width: 42%;
@@ -2986,6 +3002,9 @@ span.dived-line {
         width: 100%;
         margin-top: 20px;
     }
+      .address .map {
+          display: none;
+      }
     .address:nth-child(4) {
         padding: 3em 0 0 0em;
     }

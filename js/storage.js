@@ -447,65 +447,138 @@ var pruductList = [
 //    natural
         {
             image : './images/natural/1.jpg',
-            href: 'http://products.daltile.com/onequartz.cfm',
+            href: 'http://www.globalmarbleil.com',
             type:"natural"
         },
          {
             image : './images/natural/2.jpg',
-            href: 'http://parksite.myeshowroom.com/search?dealer=23154&manufacturer=7453&brand=0&category=0&option=0',
+            href: 'http://www.levantina.com/us/',
             type:"natural"
         },
          {
             image : './images/natural/3.jpg',
-            href: 'http://www.marmostone.net/#!kalingastoneslabs/cww',
+            href: 'http://asdusa.com',
             type:"natural"
         },
          {
             image : './images/natural/4.jpg',
-            href: 'http://asdusa.com/samsungradianz/',
+            href: 'http://www.damarstone.com',
             type:"natural"
         },
          {
             image : './images/natural/5.jpg',
-            href: 'http://www.msistone.com/quartzcountertops/',
+            href: 'http://www.chadwickssurfaces.net',
             type:"natural"
         },
 		{
             image : './images/natural/6.jpg',
-            href: 'http://www.marblegranites.com/products/technoquartz/alltechnoquartz.aspx?g=125',
+            href: 'http://www.stone-design.com',
             type:"natural"
         },
 		{
             image : './images/natural/7.jpg',
-            href: 'http://www.stonedesign.com/gallery/44/',
+            href: 'http://www.msistone.com',
             type:"natural"
         },
          {
             image : './images/natural/8.JPG',
-            href: 'http://www.lgviaterausa.com/productOverviews/83/byproductline',
+            href: 'http://www.cosmosgranite.com',
             type:"natural"
         },
          {
             image : './images/natural/9.JPG',
-            href: 'http://www.stalwartsystemsusa.com/projects/225027/HanStoneQuartz',
+            href: 'http://www.marble-granites.com',
             type:"natural"
         },
          {
             image : './images/natural/10.jpg',
-            href: 'http://www.direscousa.com/#!colors/c1gt7',
+            href: 'http://www.daltile.com',
             type:"natural"
         },
          {
             image : './images/natural/11.jpg',
-            href: 'http://www.universalgranite.com/browse?material=Quartz',
+            href: 'http://www.tmsupply.com',
             type:"natural"
 
         },
 		{
             image : './images/natural/12.jpg',
-            href: 'http://www.caesarstoneus.com/en/TheCatalog/Pages/ByColor.aspx',
+            href: 'http://www.marmostone.net',
             type:"natural"
         },
+//    suppliers
+           {
+            image : './images/engineered/1.jpg',
+            href: 'http://products.daltile.com/onequartz.cfm',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/2.jpg',
+            href: 'http://parksite.myeshowroom.com/search?dealer=23154&manufacturer=7453&brand=0&category=0&option=0',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/3.jpg',
+            href: 'http://www.marmostone.net/#!kalinga-stone-slabs/cww',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/4.jpg',
+            href: 'http://asdusa.com/samsung-radianz/',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/5.jpg',
+            href: 'http://www.msistone.com/quartz-countertops/',
+            type:"suppliers"
+        },
+		{
+            image : './images/engineered/6.jpg',
+            href: 'http://www.marble-granites.com/products/technoquartz/all-technoquartz.aspx?g=125',
+            type:"suppliers"
+        },
+		{
+            image : './images/engineered/7.jpg',
+            href: 'http://www.stone-design.com/gallery/44/',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/8.JPG',
+            href: 'http://www.lgviaterausa.com',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/9.JPG',
+            href: 'http://www.stalwartsystemsusa.com/projects/225027/HanStone-Quartz',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/10.jpg',
+            href: 'http://www.direscousa.com',
+            type:"suppliers"
+        },
+         {
+            image : './images/engineered/11.jpg',
+            href: 'http://www.universalgranite.com/browse?material=Quartz',
+            type:"suppliers"
+
+        },
+		{
+            image : './images/engineered/12.jpg',
+            href: 'http://www.caesarstoneus.com/en/Pages/default.aspx ',
+            type:"suppliers"
+        },
+		{
+            image : './images/engineered/13.jpg',
+            href: 'http://www.tmsupply.com/products/natural-stoneproducts.aspx?filter=difiniti',
+            type:"suppliers"
+        },
+		{
+            image : './images/engineered/14.jpg',
+            href: 'http://www.silestoneusa.com',
+            type:"suppliers"
+        },
+
     ]
 
 var sliders= [
