@@ -13,363 +13,363 @@ var pruductList = [
          {
 			title: "Azul Bahia",
             image : './images/granite/azulbahia_sample.jpg',
-            href: './images/granite/azulvahia_slab.jpg',
+            href: './images/granite/azulbahia_slab.jpg',
             type:"granite"
         },
          {
 			title: "Azul Imperial",
-            image : './images/granite/AzulImperial_Sample.jpg',
-            href: './images/granite/AzulImperial_Slab.jpg',
+            image : './images/granite/azulimperial_sample.jpg',
+            href: './images/granite/azulimperial_slab.jpg',
             type:"granite"
         },
          {
 			title: "Bianco Romano",
-            image : './images/granite/BiancoRomano_Sample.jpg',
-            href: './images/granite/BiancoRomano_Slab.jpg',
+            image : './images/granite/biancoromano_sample.jpg',
+            href: './images/granite/biancoromano_slab.jpg',
             type:"granite"
         },
          {
 			title: "Black Galaxy",
-            image : './images/granite/BlackGalaxy_Sample.jpg',
-            href: './images/granite/BlackGalaxy_Slab.jpg',
+            image : './images/granite/blackgalaxy_sample.jpg',
+            href: './images/granite/blackgalaxy_slab.jpg',
             type:"granite"
         },
 		{
 			title: "Cooper Canyon",
-            image : './images/granite/CopperCanyon_Sample.jpg',
-            href: './images/granite/CopperCanyon_Slab.jpg',
+            image : './images/granite/coppercanyon_sample.jpg',
+            href: './images/granite/coppercanyon_slab.jpg',
             type:"granite"
         },
 		{
 			title: "Cosmos",
-            image : './images/granite/Cosmos_sample.jpg',
-            href: './images/granite/Cosmos_Slab.jpg',
+            image : './images/granite/cosmos_sample.jpg',
+            href: './images/granite/cosmos_slab.jpg',
             type:"granite"
         },
          {
 			title: "Costa Esmeralda",
-            image : './images/granite/CostaEsmeralda_Sample.jpg',
-            href: './images/granite/CostaEsmeralda_Slab.jpg',
+            image : './images/granite/costaesmeralda_sample.jpg',
+            href: './images/granite/costaesmeralda_slab.jpg',
             type:"granite"
         },
          {
 			title: "Giallo Veneziano",
-            image : './images/granite/GialloVeneziano_Sample.jpg',
-            href: './images/granite/GialloVeneziano_Slab.jpg',
+            image : './images/granite/gialloveneziano_sample.jpg',
+            href: './images/granite/gialloveneziano_slab.jpg',
             type:"granite"
         },
          {
 			title: "Sapphire Blue",
-            image : './images/granite/SapphireBlue_Sample.jpg',
-            href: './images/granite/SapphireBlue_Slab.jpg',
+            image : './images/granite/sapphireblue_sample.jpg',
+            href: './images/granite/sapphireblue_slab.jpg',
             type:"granite"
         },
          {
 			title: "Tropic Brown",
-            image : './images/granite/TropicBrown_Sample.jpg',
-            href: './images/granite/TropicBrown_Slab.jpg',
+            image : './images/granite/tropicbrown_sample.jpg',
+            href: './images/granite/tropicbrown_slab.jpg',
             type:"granite"
 
         },
 		{
 			title: "White Srping",
-            image : './images/granite/WhiteSpring_Sample.jpg',
-            href: './images/granite/WhiteSpring_Slab.jpg',
+            image : './images/granite/whitespring_sample.jpg',
+            href: './images/granite/whitespring_slab.jpg',
             type:"granite"
         },
 
         {
 			title: "Bianco Carrara",
-            image : './images/marble/BiancoCarrara_Sample.jpg',
-            href: './images/marble/BiancoCarrara_Slab.jpg',
+            image : './images/marble/biancocarrara_sample.jpg',
+            href: './images/marble/biancocarrara_slab.jpg',
             type:"marble"
         },
          {
 			title: "Bronzo Armani",
-            image : './images/marble/BronzoArmani_Sample.jpg',
-            href: './images/marble/BronzoArmani_slab.jpg',
+            image : './images/marble/bronzoarmani_sample.jpg',
+            href: './images/marble/bronzoarmani_slab.jpg',
             type:"marble"
         },
          {
 			title: "Calacatta Gold",
-            image : './images/marble/CalacattaGold_Sample.jpg',
-            href: './images/marble/CalacattaGold_Slab.jpg',
+            image : './images/marble/calacattagold_sample.jpg',
+            href: './images/marble/calacattagold_slab.jpg',
             type:"marble"
         },
          {
 			title: "Crema Murfil",
-            image : './images/marble/CremaMurfil_Sample.jpg',
-            href: './images/marble/CremaMurfil_Slab.jpg',
+            image : './images/marble/cremamurfil_sample.jpg',
+            href: './images/marble/cremamurfil_slab.jpg',
             type:"marble"
         },
          {
 			title: "Emperador dark",
-            image : './images/marble/EmperadorDark_Sample.jpg',
-            href: './images/marble/EmperadorDark_Slab.jpg',
+            image : './images/marble/emperadordark_sample.jpg',
+            href: './images/marble/emperadordark_slab.jpg',
             type:"marble"
         },
 		{
 			title: "Nero Marquina",
-            image : './images/marble/NeroMarquina_Sample.jpg',
-            href: './images/marble/NeroMarquina_Slab.jpg',
+            image : './images/marble/neromarquina_sample.jpg',
+            href: './images/marble/neromarquina_slab.jpg',
             type:"marble"
         },
 		{
 			title: "Nero Portoro",
-            image : './images/marble/NeroPortoro_Sample.jpg',
-            href: './images/marble/NeroPortoro_Slab.jpg',
+            image : './images/marble/neroportoro_sample.jpg',
+            href: './images/marble/neroportoro_slab.jpg',
             type:"marble"
         },
          {
 			title: "Rain Forest",
-            image : './images/marble/RainForest_Sample.jpg',
-            href: './images/marble/RainForest_Slab.jpg',
+            image : './images/marble/rainforest_sample.jpg',
+            href: './images/marble/rainforest_slab.jpg',
             type:"marble"
         },
          {
 			title: "Rosa Verona",
-            image : './images/marble/RosaVerona_Sample.jpg',
-            href: './images/marble/RosaVerona_Slab.jpg',
+            image : './images/marble/rosaverona_sample.jpg',
+            href: './images/marble/rosaverona_slab.jpg',
             type:"marble"
         },
          {
 			title: "Statuary",
-            image : './images/marble/Statuary_Sample.jpg',
-            href: './images/marble/Statuary_slab.jpg',
+            image : './images/marble/statuary_sample.jpg',
+            href: './images/marble/statuary_slab.jpg',
             type:"marble"
         },
          {
 			title: "Striato Olympico",
-            image : './images/marble/StriatoOlympico_Sample.jpg',
-            href: './images/marble/StriatoOlympico_Slab.jpg',
+            image : './images/marble/striatoolympico_sample.jpg',
+            href: './images/marble/striatoolympico_slab.jpg',
             type:"marble"
         },
 		{
 			title: "Turkish Emperador",
-            image : './images/marble/TurkishEmperador_Sample.jpg',
-            href: './images/marble/TurkishEmperador_Slab.jpg',
+            image : './images/marble/turkishemperador_sample.jpg',
+            href: './images/marble/turkishemperador_slab.jpg',
             type:"marble"
         },
 //    QUARTZITE
        {
 			title: "Cezanne",
-            image : './images/quartzite/Cezanne_Sample.jpg',
-            href: './images/quartzite/Cezanne_Slab.jpg',
+            image : './images/quartzite/cezanne_sample.jpg',
+            href: './images/quartzite/cezanne_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Copper Dune",
-            image : './images/quartzite/CopperDune_Sample.jpg',
-            href: './images/quartzite/CopperDune_Slab.jpg',
+            image : './images/quartzite/copperdune_sample.jpg',
+            href: './images/quartzite/copperdune_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Emerald",
-            image : './images/quartzite/Emerald_Sample.jpg',
-            href: './images/quartzite/Emerald_Slab.jpg',
+            image : './images/quartzite/emerald_sample.jpg',
+            href: './images/quartzite/emerald_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Fusion",
-            image : './images/quartzite/Fusion_Sample.jpg',
-            href: './images/quartzite/Fusion_Slab.jpg',
+            image : './images/quartzite/fusion_sample.jpg',
+            href: './images/quartzite/fusion_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Luisa Blue",
-            image : './images/quartzite/LuisaBlue_Sample.jpg',
-            href: './images/quartzite/LuisaBlue_Slab.jpg',
+            image : './images/quartzite/luisablue_sample.jpg',
+            href: './images/quartzite/luisablue_slab.jpg',
             type:"quartzite"
         },
 		{
 			title: "Lumix",
-            image : './images/quartzite/Lumix_Sample.jpg',
-            href: './images/quartzite/Lumix_Slab.jpg',
+            image : './images/quartzite/lumix_sample.jpg',
+            href: './images/quartzite/lumix_slab.jpg',
             type:"quartzite"
         },
 		{
 			title: "Moonlight",
-            image : './images/quartzite/Moonlight_Sample.jpg',
-            href: './images/quartzite/Moonlight_Slab.jpg',
+            image : './images/quartzite/moonlight_sample.jpg',
+            href: './images/quartzite/moonlight_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Petrified Wood",
-            image : './images/quartzite/PetrifiedWood_Sample.jpg',
-            href: './images/quartzite/PetrifiedWood_Slab.jpg',
+            image : './images/quartzite/petrifiedwood_sample.jpg',
+            href: './images/quartzite/petrifiedwood_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Prada",
-            image : './images/quartzite/Prada_Sample.jpg',
-            href: './images/quartzite/Prada_Slab.jpg',
+            image : './images/quartzite/prada_sample.jpg',
+            href: './images/quartzite/prada_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Taj Mahal",
-            image : './images/quartzite/TajMahal_Sample.jpg',
-            href: './images/quartzite/TajMahal_Slab.jpg',
+            image : './images/quartzite/tajmahal_sample.jpg',
+            href: './images/quartzite/tajmahal_slab.jpg',
             type:"quartzite"
         },
          {
 			title: "Vogue",
-            image : './images/quartzite/Vogue_Sample.jpg',
-            href: './images/quartzite/Vogue_Slab.jpg',
+            image : './images/quartzite/vogue_sample.jpg',
+            href: './images/quartzite/vogue_slab.jpg',
             type:"quartzite"
 
         },
 		{
 			title: "Yellow Bamboo",
-            image : './images/quartzite/YellowBamboo_Sample.jpg',
-            href: './images/quartzite/YellowBamboo_Slab.jpg',
+            image : './images/quartzite/yellowbamboo_sample.jpg',
+            href: './images/quartzite/yellowbamboo_slab.jpg',
             type:"quartzite"
         },
 //    ONYX
        {
 			title: "Amber",
-            image : './images/onyx/AmberOnyx_Sample.jpg',
-            href: './images/onyx/AmberOnyx_Slab.jpg',
+            image : './images/onyx/amberonyx_sample.jpg',
+            href: './images/onyx/amberonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Capuccino",
-            image : './images/onyx/CappuccinoOnyx_Sample.jpg',
-            href: './images/onyx/CappuccinoOnyx_Slab.jpg',
+            image : './images/onyx/cappuccinoonyx_sample.jpg',
+            href: './images/onyx/cappuccinoonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Fantasy",
-            image : './images/onyx/FantasyOnyx_Sample.jpg',
-            href: './images/onyx/FantasyOnyx_Slab.jpg',
+            image : './images/onyx/fantasyonyx_sample.jpg',
+            href: './images/onyx/fantasyonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Fire",
-            image : './images/onyx/FireOnyx_Sample.jpg',
-            href: './images/onyx/FireOnyx_Slab.jpg',
+            image : './images/onyx/fireonyx_sample.jpg',
+            href: './images/onyx/fireonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Gray",
-            image : './images/onyx/GrayOnyx_Sample.jpg',
-            href: './images/onyx/GrayOnyx_Slab.jpg',
+            image : './images/onyx/grayonyx_sample.jpg',
+            href: './images/onyx/grayonyx_slab.jpg',
             type:"onyx"
         },
 		{
 			title: "Green",
-            image : './images/onyx/GreenOnyx_Sample.jpg',
-            href: './images/onyx/GreenOnyx_slab.jpg',
+            image : './images/onyx/greenonyx_sample.jpg',
+            href: './images/onyx/greenonyx_slab.jpg',
             type:"onyx"
         },
 		{
 			title: "Honey",
-            image : './images/onyx/HoneyOnyx_Sample.jpg',
-            href: './images/onyx/HoneyOnyx_Slab.jpg',
+            image : './images/onyx/honeyonyx_sample.jpg',
+            href: './images/onyx/honeyonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Pink",
-            image : './images/onyx/PinkOnyx_Sample.jpg',
-            href: './images/onyx/PinkOnyx_Slab.jpg',
+            image : './images/onyx/pinkonyx_sample.jpg',
+            href: './images/onyx/pinkonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Smeraldo",
-            image : './images/onyx/SmeraldoOnyx_Sample.jpg',
-            href: './images/onyx/SmeraldoOnyx_Slab.jpg',
+            image : './images/onyx/smeraldoonyx_sample.jpg',
+            href: './images/onyx/smeraldoonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Velluto",
-            image : './images/onyx/VellutoOnyx_Sample.jpg',
-            href: './images/onyx/VellutoOnyx_Slab.jpg',
+            image : './images/onyx/vellutoonyx_sample.jpg',
+            href: './images/onyx/vellutoonyx_slab.jpg',
             type:"onyx"
         },
          {
 			title: "Volcano",
-            image : './images/onyx/VolcanoOnyx_Sample.jpg',
-            href: './images/onyx/VolcanoOnyx_Slab.jpg',
+            image : './images/onyx/volcanoonyx_sample.jpg',
+            href: './images/onyx/volcanoonyx_slab.jpg',
             type:"onyx"
 
         },
 		{
 			title: "White",
-            image : './images/onyx/WhiteOnyx_Sample.jpg',
-            href: './images/onyx/WhiteOnyx_Slab.jpg',
+            image : './images/onyx/whiteonyx_sample.jpg',
+            href: './images/onyx/whiteonyx_slab.jpg',
             type:"onyx"
         },
 //    LIMESTONE/travertine
        {
 			title: "Jerusalem Gold",
-            image : './images/limestone/limestone/JerusalemGold_Sample.jpg',
-            href: './images/limestone/limestone/JerusalemGold_Slab.jpg',
+            image : './images/limestone/limestone/jerusalemgold_sample.jpg',
+            href: './images/limestone/limestone/jerusalemgold_slab.jpg',
             type:"limestonetravertine"
         },
          {
 			title: "Lagos Blue",
-            image : './images/limestone/limestone/LagosBlue_Sample.jpg',
-            href: './images/limestone/limestone/LagosBlue_Slab.jpg',
+            image : './images/limestone/limestone/lagosblue_sample.jpg',
+            href: './images/limestone/limestone/lagosblue_slab.jpg',
             type:"limestonetravertine"
         },
          {
 			title: "Petit Granit",
-            image : './images/limestone/limestone/PetitGranit_Sample.jpg',
-            href: './images/limestone/limestone/PetitGranit_Slab.jpg',
+            image : './images/limestone/limestone/petitgranit_sample.jpg',
+            href: './images/limestone/limestone/petitgranit_slab.jpg',
             type:"limestonetravertine"
         },
          {
 			title: "Ramon Gold",
-            image : './images/limestone/limestone/RamonGold_Sample.png',
-            href: './images/limestone/limestone/RamonGold_Slab.jpg',
+            image : './images/limestone/limestone/ramongold_sample.png',
+            href: './images/limestone/limestone/ramongold_slab.jpg',
             type:"limestonetravertine"
         },
          {
 			title: "Sea Grass",
-            image : './images/limestone/limestone/SeaGrass_Sample.jpg',
-            href: './images/limestone/limestone/SeaGrass_Slab.jpg',
+            image : './images/limestone/limestone/seagrass_sample.jpg',
+            href: './images/limestone/limestone/seagrass_slab.jpg',
             type:"limestonetravertine"
         },
 		{
 			title: "Sophia",
-            image : './images/limestone/limestone/Sophia_Sample.jpg',
-            href: './images/limestone/limestone/Sophia_Slab.jpg',
+            image : './images/limestone/limestone/sophia_sample.jpg',
+            href: './images/limestone/limestone/sophia_slab.jpg',
             type:"limestonetravertine"
         },
 //    travertine
 		{
 			title: "Durango",
-            image : './images/limestone/travertine/DurangoTravertine_Sample.jpg',
-            href: './images/limestone/travertine/DurangoTravertine_Slab.jpg',
+            image : './images/limestone/travertine/durangotravertine_sample.jpg',
+            href: './images/limestone/travertine/durangotravertine_slab.jpg',
             type:"limestonetravertine"
         },
 		{
 			title: "Parthenon Gold",
-            image : './images/limestone/travertine/ParthenonGoldTravertine_Sample.jpg',
-            href: './images/limestone/travertine/ParthenonGoldTravertine_Slab.jpg',
+            image : './images/limestone/travertine/parthenongoldtravertine_sample.jpg',
+            href: './images/limestone/travertine/parthenongoldtravertine_slab.jpg',
             type:"limestonetravertine"
         },
 		{
 			title: "Persian White",
-            image : './images/limestone/travertine/PersianWhiteTravertine_Sample.jpg',
-            href: './images/limestone/travertine/PersianWhiteTravertine_Slab.jpg',
+            image : './images/limestone/travertine/persianwhitetravertine_sample.jpg',
+            href: './images/limestone/travertine/persianwhitetravertine_slab.jpg',
             type:"limestonetravertine"
         },
 		{
 			title: "Red Travertine",
-            image : './images/limestone/travertine/RedTravertine_Sample.jpg',
-            href: './images/limestone/travertine/RedTravertine_Slab.jpg',
+            image : './images/limestone/travertine/redtravertine_sample.jpg',
+            href: './images/limestone/travertine/redtravertine_slab.jpg',
             type:"limestonetravertine"
         },
 		{
 			title: "Roman Travertine",
-            image : './images/limestone/travertine/RomanTravertine_Sample.jpg',
-            href: './images/limestone/travertine/RomanTravertine_Slab.jpg',
+            image : './images/limestone/travertine/romantravertine_sample.jpg',
+            href: './images/limestone/travertine/romantravertine_slab.jpg',
             type:"limestonetravertine"
         },
 		{
 			title: "Silver Travertine",
-            image : './images/limestone/travertine/SilverTravertine_Sample.jpg',
-            href: './images/limestone/travertine/SilverTravertine_Slab.jpg',
+            image : './images/limestone/travertine/silvertravertine_sample.jpg',
+            href: './images/limestone/travertine/silvertravertine_slab.jpg',
             type:"limestonetravertine"
         },
 //    engineered
@@ -409,12 +409,12 @@ var pruductList = [
             type:"engineered"
         },
          {
-            image : './images/engineered/8.JPG',
+            image : './images/engineered/8.jpg',
             href: 'http://www.lgviaterausa.com/productOverviews/83/byproductline',
             type:"engineered"
         },
          {
-            image : './images/engineered/9.JPG',
+            image : './images/engineered/9.jpg',
             href: 'http://www.stalwartsystemsusa.com/projects/225027/HanStoneQuartz',
             type:"engineered"
         },
@@ -481,12 +481,12 @@ var pruductList = [
             type:"natural"
         },
          {
-            image : './images/natural/8.JPG',
+            image : './images/natural/8.jpg',
             href: 'http://www.cosmosgranite.com',
             type:"natural"
         },
          {
-            image : './images/natural/9.JPG',
+            image : './images/natural/9.jpg',
             href: 'http://www.marble-granites.com',
             type:"natural"
         },
@@ -543,12 +543,12 @@ var pruductList = [
             type:"suppliers"
         },
          {
-            image : './images/engineered/8.JPG',
+            image : './images/engineered/8.jpg',
             href: 'http://www.lgviaterausa.com',
             type:"suppliers"
         },
          {
-            image : './images/engineered/9.JPG',
+            image : './images/engineered/9.jpg',
             href: 'http://www.stalwartsystemsusa.com/projects/225027/HanStone-Quartz',
             type:"suppliers"
         },
@@ -595,15 +595,15 @@ var sliders= [
             type:"slides"
         },
          {
-            image : "./images/slide/slide1Sml.jpg",
+            image : "./images/slide/slide1sml.jpg",
             type:"slidesSml"
         },
         {
-            image : "./images/slide/slide2Sml.jpg",
+            image : "./images/slide/slide2sml.jpg",
             type:"slidesSml"
         },
         {
-            image : "./images/slide/slide3Sml.jpg",
+            image : "./images/slide/slide3sml.jpg",
             type:"slidesSml"
         },
         {
