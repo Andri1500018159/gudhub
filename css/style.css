@@ -2627,7 +2627,9 @@ span.dived-line {
     .top-nav ul li a {
         font-size: 15px;
     }
-
+   .header-logo {
+        width: 20%;
+    }
 
 
     .banner-title h1 {
@@ -2823,7 +2825,7 @@ span.dived-line {
     }
 
     .header-logo {
-        width: 28%;
+        width: 25%;
     }
 
     .top-tel {
