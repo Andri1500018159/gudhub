@@ -390,22 +390,22 @@ var pruductList = [
         },
          {
             image : './images/engineered/4.jpg',
-            href: 'http://asdusa.com/samsungradianz/',
+            href: 'http://asdusa.com/samsung-radianz/',
             type:"engineered"
         },
          {
             image : './images/engineered/5.jpg',
-            href: 'http://www.msistone.com/quartzcountertops/',
+            href: 'http://www.msistone.com/quartz-countertops/',
             type:"engineered"
         },
 		{
             image : './images/engineered/6.jpg',
-            href: 'http://www.marblegranites.com/products/technoquartz/alltechnoquartz.aspx?g=125',
+            href: 'http://www.marble-granites.com/products/technoquartz/all-technoquartz.aspx?g=125',
             type:"engineered"
         },
 		{
             image : './images/engineered/7.jpg',
-            href: 'http://www.stonedesign.com/gallery/44/',
+            href: 'http://www.stone-design.com/gallery/44/',
             type:"engineered"
         },
          {
@@ -436,7 +436,7 @@ var pruductList = [
         },
 		{
             image : './images/engineered/13.jpg',
-            href: 'http://www.tmsupply.com/products/naturalstoneproducts.aspx?filter=difiniti',
+            href: 'http://www.tmsupply.com/products/natural-stone-products.aspx?filter=difiniti',
             type:"engineered"
         },
 		{
@@ -570,7 +570,7 @@ var pruductList = [
         },
 		{
             image : './images/engineered/13.jpg',
-            href: 'http://www.tmsupply.com/products/natural-stoneproducts.aspx?filter=difiniti',
+            href: 'http://www.tmsupply.com/products/natural-stone-products.aspx?filter=difiniti',
             type:"suppliers"
         },
 		{
@@ -607,15 +607,15 @@ var sliders= [
             type:"slidesSml"
         },
         {
-            image1 : "./images/slide/slide1.jpg",
-            image2 : "./images/slide/slide2.jpg",
-            image3 : "./images/slide/slide3.jpg",
+            image1 : "./images/slide/slide1car.jpg",
+            image2 : "./images/slide/slide2car.jpg",
+            image3 : "./images/slide/slide3car.jpg",
             type: "carousel"
         },
         {
-            image1 : './images/slide/slide4.jpg',
-            image2 : './images/slide/slide5.jpg',
-            image3 : './images/slide/slide1.jpg',
+            image1 : './images/slide/slide4car.jpg',
+            image2 : './images/slide/slide5car.jpg',
+            image3 : './images/slide/slide1car.jpg',
             type: "carousel"
         },
         {

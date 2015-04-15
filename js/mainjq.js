@@ -31,9 +31,19 @@ function initFancyBox() {
     });
 }
 
+function initSlickNav(){
+		$('.nav1').slicknav({
+	   label: '',
+	   duration: 500,
+
+
+});
+    $('.slicknav_menu').prepend('<div class="header-logo"><a href="#/home"><img src="./images/logo.png" alt="logo"></a></div>');
+	};
 
 
 $(document).ready(function () {
     initFancyBox();
+    initSlickNav();
 
 });
