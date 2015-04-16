@@ -153,6 +153,8 @@ html,
 body {
     height: 100%;
     width: 100%;
+      overflow-x: hidden;
+
 }
 
 .line {
@@ -1992,7 +1994,9 @@ span.dived-line {
     .header-logo {
       width:18%;
         margin-top: 10px;
-
+    }
+    #fancybox-thumbs{
+        display: none;
     }
     .top-nav ul li a {
         font-size:12px;
@@ -2117,7 +2121,9 @@ span.dived-line {
         font-size: 3.5em;
         width: 70%;
     }
-
+    .row{
+        margin:0 0 !important;
+    }
     .download {
         width: 20%;
     }
@@ -2421,10 +2427,7 @@ span.dived-line {
         padding-top: 3em;
     }
 
-    .service-grids .col-md-4 {
-        float: left;
-        width: 33.33%;
-    }
+
 
     .service-grids h5 {
         font-size: 15px;
@@ -3131,11 +3134,6 @@ span.dived-line {
         font-size: 1.4em;
     }
 
-    .col-md-6:nth-child(1),
-    .col-md-6:nth-child(2) {
-        padding: 0 10px;
-    }
-
     .about span {
         top: 44%;
         left: 42%;
@@ -3185,18 +3183,7 @@ span.dived-line {
         padding-top: 2em;
     }
 
-    .col-md-4:nth-child(3) {
-        display: none;
-    }
 
-    .service-grids .col-md-4 {
-        width: 50%;
-    }
-
-    .col-md-4:nth-child(1),
-    .col-md-4:nth-child(2) {
-        padding: 0;
-    }
 
     .service p {
         height: 71px;

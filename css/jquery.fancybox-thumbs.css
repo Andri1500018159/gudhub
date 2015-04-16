@@ -1,5 +1,5 @@
 #fancybox-thumbs {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	width: 100%;
 	overflow: hidden;

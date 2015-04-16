@@ -5,7 +5,6 @@
  *
  * Usage:
  *     $(".fancybox").fancybox({
-    'use strict';
  *         helpers : {
  *             thumbs: {
  *                 width  : 50,
@@ -58,7 +57,7 @@
 				list += '<li><a style="width:' + thumbWidth + 'px;height:' + thumbHeight + 'px;" href="javascript:jQuery.fancybox.jumpto(' + n + ');"></a></li>';
 			}
 
-			this.wrap = $('<div id="fancybox-thumbs"></div>').addClass(opts.position).appendTo('.fancybox-skin');
+			this.wrap = $('<div id="fancybox-thumbs"></div>').addClass(opts.position).appendTo('body');
 			this.list = $('<ul>' + list + '</ul>').appendTo(this.wrap);
 
 			//Load each thumbnail
@@ -124,7 +123,7 @@
 			}
 
 			//Increase bottom margin to give space for thumbs
-			obj.margin[ opts.position === 'top' ? 0 : 2 ] += ((opts.height));
+			obj.margin[ opts.position === 'top' ? 0 : 2 ] += ((opts.height) + 15);
 		},
 
 		afterShow: function (opts, obj) {
@@ -138,7 +137,6 @@
 
 			//Set active element
 			this.list.children().removeClass('active').eq(obj.index).addClass('active');
-            if (this.wrap) {this.wrap.appendTo('.fancybox-wrap');}
 		},
 
 		//Center list

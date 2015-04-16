@@ -8,6 +8,15 @@ function initFancyBox() {
         closeEffect: 'fade',
         closeSpeed: 300,
         arrows : true,
+
+    });
+    $(".fancybox-thumb").fancybox({
+        padding: 0,
+        openEffect: 'elastic',
+        openSpeed: 600,
+        closeEffect: 'fade',
+        closeSpeed: 300,
+        arrows : true,
         helpers	: {
 			thumbs	: {
 				width	: 150,
@@ -17,7 +26,6 @@ function initFancyBox() {
 
         }
     });
-
 
 
 };
