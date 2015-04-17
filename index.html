@@ -71,7 +71,8 @@
                         <li ng-repeat="item in main_menu">
                             <a ng-click="init_menu();item.active=true;" ng-class="{active: item.active}" href="{{item.href}}">{{item.name}}</a>
                             <ul>
-                                <li ng-repeat="sub in item.submenu"><a ng-click="init_menu();sub.active=true;" ng-class="{active: sub.active}" href="{{sub.href}}">{{sub.name}}</a>
+                                <li ng-repeat="sub in item.submenu">
+                                <a ng-click="init_menu();sub.active=true;" ng-class="{active: sub.active}" href="{{sub.href}}">{{sub.name}}</a>
                                 </li>
                             </ul>
                         </li>

@@ -16,7 +16,7 @@ angular.module('myapp', ["ngRoute",
             {
                 name: "Home",
                 href: "#/home",
-                active: true
+                active: true,
     },
             {
                 name: "Portfolio",
@@ -25,7 +25,7 @@ angular.module('myapp', ["ngRoute",
              },
             {
                 name: "Products",
-                href: "#/products",
+                href: "#/selection",
                 active: false,
                 submenu: [
                     {
